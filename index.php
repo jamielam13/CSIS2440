@@ -8,12 +8,14 @@
 </head>
 <body>
 
-  <h1>THIS IS AN EXAMPLE OF CHANGES</h1>
-  <<h3>My First PHP program</h3>
+    <h1>THIS IS AN EXAMPLE OF CHANGES</h1>
+    <h3>My First PHP program</h3>
 
-  <?php
+    <?php
     echo "hello world!";
     ?>
+
+    <a href = "secondPage.php">CLICK ME</a>
 
 </body>
 </html>
