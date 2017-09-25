@@ -5,7 +5,7 @@
         <meta name= "viewport" content = "width=device-width, initial-scale=1">
     </head>
     <style>
-        radio.first radio.Male {
+        li.first radio.Male {
             background-color: #B3E5FC;
         }
     </style>
