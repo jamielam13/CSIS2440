@@ -12,11 +12,9 @@
             $city = $_POST["City"];
             $state = $_POST["State"];
             $gender = $_POST["Gender"];
-            $birthday = $_POST["DOB"];
             echo "<br>";
 
-            $person = "My name is $name. I am $age years old, 
-                my birthday is $birthday. <br> 
+            $person = "My name is $name. I am $age years old. <br> 
                 I live at $address in $city, $state. <br>
                 I am a $gender";
             printf($person);
