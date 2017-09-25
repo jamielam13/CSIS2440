@@ -5,7 +5,7 @@
         <meta name= "viewport" content = "width=device-width, initial-scale=1">
     </head>
     <style>
-        li.first radio.Male {
+        select.gender option.male {
             background-color: #B3E5FC;
         }
     </style>
@@ -27,9 +27,14 @@
                 <li class = "first">State:</li>
                 <input type="text" name= "State" maxlength= "15">
 
-                <li class = "first">Sex:</li>
+                <select name="gender">
+                    <option value="male" class= "male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+
+                <!-- <li class = "first">Sex:</li>
                 <input type="radio" value="Male" name= "Gender">Male
-                <input type="radio" value="Female" name= "Gender">Famale
+                <input type="radio" value="Female" name= "Gender">Famale -->
                 <br>
                 <input type="submit" name= "Submit" value= "Submit">
             </ul>
