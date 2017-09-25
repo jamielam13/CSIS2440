@@ -18,6 +18,7 @@
                 I live at $address in $city, $state. <br>
                 I am a $gender";
             printf($person);
+        
        ?>     
     </body>
 </html>
