@@ -9,12 +9,8 @@
 <body>
 
     <h1>CSIS2440 Homework</h1>
-
-    <?php
-    echo "hello world!";
-    ?>
-
-    <a href = "secondPage.php">CLICK ME</a>
+    <br>
+    <a href = "whoAmI.php">ASSIGNMENT 1</a>
 
 </body>
 </html>
