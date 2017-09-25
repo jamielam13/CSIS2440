@@ -8,18 +8,24 @@
         <form action="whoYouAre.php" method="POST">
             <ul>
                 <li class = "first">Name:</li>
-                <li class = "text"><input type="text" name="Name"></li>
+                <input type="text" name="Name">
+
                 <li class = "first">Age:</li>
-                <li class = "text"><input type="text" name= "Age"></li>
+                <input type="text" name= "Age">
+
                 <li class = "first">Address:</li>
-                <li class = "text"><input type="text" name= "Address" maxlength= "20"></li>
-                <li class = "first">State:</li
-                <li class = "text"><input type="text" name= "State" maxlength= "15"></li>
-                <li class = "first">Sex:</li
-                <li class = "radio">
-                    <input type="radio" value="Male" name= "Gender">Male
-                    <input type="radio" value="Female" name= "Gender">Famale
-                </li> <br>
+                <input type="text" name= "Address" maxlength= "20">
+
+                <li class = "first">City:</li>
+                <input type="text" name= "City" maxlength= "20">
+
+                <li class = "first">State:</li>
+                <input type="text" name= "State" maxlength= "15">
+                
+                <li class = "first">Sex:</li>
+                <input type="radio" value="Male" name= "Gender">Male
+                <input type="radio" value="Female" name= "Gender">Famale
+                <br>
                 <input type="submit" name= "Submit" value= "Submit">
             </ul>
         </form>      
