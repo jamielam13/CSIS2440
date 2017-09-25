@@ -19,7 +19,7 @@
                 <li class = "radio">
                     <input type="radio" value="Male" name= "Gender">Male
                     <input type="radio" value="Female" name= "Gender">Famale
-                </li>
+                </li> <br>
                 <input type="submit" name= "Submit" value= "Submit">
             </ul>
         </form>      
