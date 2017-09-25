@@ -5,7 +5,7 @@
         <meta name= "viewport" content = "width=device-width, initial-scale=1">
     </head>
     <style>
-        select.gender option.male {
+        body    {
             background-color: #B3E5FC;
         }
     </style>
@@ -20,7 +20,7 @@
 
                 <br>
                 <select name="gender">
-                    <option value="male" style= "background-color:#B3E5FC">Male</option>
+                    <option value="male" style= "background-color: blue">Male</option>
                     <option value="female">Female</option>
                 </select>
                 <br>
