@@ -10,7 +10,7 @@
 
     <h1>CSIS2440 Homework</h1>
     <br>
-    <a href = "whoAmI.php">ASSIGNMENT 1</a>
+    <a href = "Assignment 1/whoAmI.php">ASSIGNMENT 1</a>
 
 </body>
 </html>
