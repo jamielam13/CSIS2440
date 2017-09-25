@@ -13,6 +13,11 @@
                 <li class = "first">Age:</li>
                 <input type="text" name= "Age">
 
+                <li class = "first">Date of birth:</li>
+                <input type="text" name= "DOB" maxlength= 2>/
+                <input type="text" name= "DOB" maxlength= 2>/
+                <input type="text" name= "DOB" maxlength= 4>
+
                 <li class = "first">Address:</li>
                 <input type="text" name= "Address" maxlength= "20">
 
@@ -21,7 +26,7 @@
 
                 <li class = "first">State:</li>
                 <input type="text" name= "State" maxlength= "15">
-                
+
                 <li class = "first">Sex:</li>
                 <input type="radio" value="Male" name= "Gender">Male
                 <input type="radio" value="Female" name= "Gender">Famale
