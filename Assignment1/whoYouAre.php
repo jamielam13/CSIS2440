@@ -23,7 +23,7 @@
             printf($person);
             echo "<br>";
 
-            if ($gender = "Male") {
+            if ($gender == "Male") {
                 echo '<body style = "background-color:#B3E5FC">';
             } else  {
                 echo '<body style = "background-color:white">';
