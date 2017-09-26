@@ -5,9 +5,9 @@
         <meta name= "viewport" content = "width=device-width, initial-scale=1">
     </head>
     <style>
-        /* select.Male {
+        select.Male {
             background-color: #B3E5FC;
-        } */
+        }
     </style>
     <body>
         <form action="whoYouAre.php" method="POST">
