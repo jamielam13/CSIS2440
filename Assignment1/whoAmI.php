@@ -20,7 +20,7 @@
 
                 <br>
                 <select name="gender">
-                    <option value="male" background-color= "#B3E5FC">Male</option>
+                    <option value="male" style= "background-color: #B3E5FC">Male</option>
                     <option value="female">Female</option>
                 </select>
                 <br>

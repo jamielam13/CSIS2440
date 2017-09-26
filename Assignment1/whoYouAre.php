@@ -21,7 +21,13 @@
                 I live at $address in $city, $state. <br>
                 I am a $gender";
             printf($person);
-        
+            echo "<br>";
+            
+            $year = date("Y") - $age;
+            for ($i = 0; $i <= $age; $i++)  {
+                echo $year;
+                $year ++;
+            }
        ?>     
     </body>
 </html>
