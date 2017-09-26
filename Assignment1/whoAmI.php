@@ -5,9 +5,9 @@
         <meta name= "viewport" content = "width=device-width, initial-scale=1">
     </head>
     <style>
-        select.Male {
+        /* select.Male {
             background-color: #B3E5FC;
-        }
+        } */
     </style>
     <body>
         <form action="whoYouAre.php" method="POST">
@@ -20,8 +20,8 @@
 
                 <br>
                 <select name="gender">
-                    <option value="male" style= "background-color: #B3E5FC">Male</option>
-                    <option value="female">Female</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
                 </select>
                 <br>
 
