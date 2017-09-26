@@ -25,8 +25,6 @@
 
             if ($gender = "boy") {
                 echo '<body style = "background-color:#B3E5FC">';
-            } else  {
-                echo '<body style = "background-color:#FFCDD2">';
             }
 
             $year = date("Y") - $age;
