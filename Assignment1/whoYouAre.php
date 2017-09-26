@@ -16,7 +16,7 @@
             $address = $_POST["Address"];
             $city = $_POST["City"];
             $state = $_POST["State"];
-            $gender = $_POST["Gender"];
+            $gender = $_POST["gender"];
             echo "<br>";
 
             $person = "My name is $name. I am $age years old. <br> 
