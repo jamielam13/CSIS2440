@@ -8,6 +8,10 @@
         body    {
             /* background-color: #B3E5FC; */
         }
+
+        select.Male {
+            background-color: #B3E5FC;
+        }
     </style>
     <body>
         <form action="whoYouAre.php" method="POST">
