@@ -5,9 +5,9 @@
         <meta name= "viewport" content = "width=device-width, initial-scale=1">
     </head>
     <style>
-        select.gender option.male   {
+        /* select.gender option.male   {
             background-color: #B3E5FC;
-        }
+        } */
     </style>
     <body>
        <?php
