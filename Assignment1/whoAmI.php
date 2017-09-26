@@ -18,12 +18,12 @@
                 <li class = "first">Age:</li>
                 <input type="text" name= "Age">
 
-                <br>
+                <!-- <br>
                 <select name="gender">
                     <option value="Male">Male</option>
                     <option value="Woman">Woman</option>
                 </select>
-                <br>
+                <br> -->
 
                 <li class = "first">Address:</li>
                 <input type="text" name= "Address" maxlength= "20">
@@ -34,11 +34,9 @@
                 <li class = "first">State:</li>
                 <input type="text" name= "State" maxlength= "15">
 
-                
-
-                <!-- <li class = "first">Sex:</li>
+                <li class = "first">Sex:</li>
                 <input type="radio" value="Male" name= "Gender">Male
-                <input type="radio" value="Female" name= "Gender">Famale -->
+                <input type="radio" value="Female" name= "Gender">Famale
                 <br>
                 <input type="submit" name= "Submit" value= "Submit">
             </ul>
