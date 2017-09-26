@@ -36,7 +36,7 @@
 
                 <li class = "first">Sex:</li>
                 <input type="radio" value="Male" name= "Gender">Male
-                <input type="radio" value="Female" name= "Gender">Famale
+                <input type="radio" value="Female" name= "Gender">FEmale
                 <br>
                 <input type="submit" name= "Submit" value= "Submit">
             </ul>

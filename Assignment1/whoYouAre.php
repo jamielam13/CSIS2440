@@ -14,7 +14,7 @@
             $address = $_POST["Address"];
             $city = $_POST["City"];
             $state = $_POST["State"];
-            $gender = $_POST["gender"];
+            $gender = $_POST["Gender"];
             echo "<br>";
 
             $person = "My name is $name. I am $age years old. <br> 
@@ -23,7 +23,7 @@
             printf($person);
             echo "<br>";
 
-            if ($gender = "Male") {
+            if ($Gender = "Male") {
                 echo '<body style = "background-color:#B3E5FC">';
             } else  {
                 echo '<body style = "background-color:#FFCDD2">';
