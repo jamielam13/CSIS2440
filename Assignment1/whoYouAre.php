@@ -23,6 +23,12 @@
             printf($person);
             echo "<br>";
 
+            if ($gender = "Male") {
+                echo '<body style = "background-color:#B3E5FC">';
+            } else  {
+                echo '<body style = "background-color:white">';
+            }
+
             $year = date("Y") - $age;
             for ($i = 0; $i <= $age; $i++)  {
                 echo $year."<br>";
