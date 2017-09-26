@@ -21,7 +21,7 @@
                 <br>
                 <select name="gender">
                     <option value="Male">Male</option>
-                    <option value="Female">Woman</option>
+                    <option value="Woman">Woman</option>
                 </select>
                 <br>
 
