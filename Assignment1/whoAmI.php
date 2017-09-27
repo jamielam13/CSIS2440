@@ -36,8 +36,8 @@
                 <input type="text" name= "State" maxlength= "15">
 
                 <li class = "first">Sex:</li>
-                <input type="radio" value="boy" name= "Gender">Male
-                <input type="radio" value="girl" name= "Gender">Female
+                <input type="radio" value="male" name= "Gender">Male
+                <input type="radio" value="female" name= "Gender">Female
                 <br>
                 <input type="submit" name= "Submit" value= "Submit">
             </ul>
