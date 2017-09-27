@@ -5,11 +5,12 @@
         <meta name= "viewport" content = "width=device-width, initial-scale=1">
     </head>
     <style>
-        /* select.Male {
-            background-color: #B3E5FC;
-        } */
+       ul   {
+           list-style-type: none;
+       }
     </style>
     <body>
+        <h1>Who are you?</h1>
         <form action="whoYouAre.php" method="POST">
             <ul>
                 <li class = "first">Name:</li>

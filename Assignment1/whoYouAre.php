@@ -16,6 +16,7 @@
         }
     </style>
     <body>
+        <h1>Who I am</h1>
        <?php
             $name = $_POST["Name"];
             $age = $_POST["Age"];
