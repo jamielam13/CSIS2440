@@ -5,6 +5,9 @@
         <meta name= "viewport" content = "width=device-width, initial-scale=1">
     </head>
     <style>
+        body    {  
+            text-align: center;
+        }
         div {
             width: 300px;
             height: 100px;    
