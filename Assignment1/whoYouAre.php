@@ -25,7 +25,8 @@
             $gender = $_POST["Gender"];
             echo "<br>";
 
-            $person = "My name is $name. I am $age years old. <br> 
+            $person = "My name is $name.<br>
+                I am $age years old. <br> 
                 I live at $address in $city, $state. <br>
                 I am a $gender<br>";
             printf($person);

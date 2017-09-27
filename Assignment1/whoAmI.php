@@ -5,9 +5,12 @@
         <meta name= "viewport" content = "width=device-width, initial-scale=1">
     </head>
     <style>
-       ul   {
+        body    {
+            text-align: center;
+        }
+        ul   {
            list-style-type: none;
-       }
+        }
     </style>
     <body>
         <h1>Who are you?</h1>
