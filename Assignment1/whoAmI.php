@@ -8,12 +8,16 @@
         body    {
             text-align: center;
         }
+
+        /* removing bullet for list */
         ul   {
            list-style-type: none;
         }
     </style>
     <body>
         <h1>Who are you?</h1>
+
+        <!-- form -->
         <form action="whoYouAre.php" method="POST">
             <ul>
                 <li class = "first">Name:</li>
@@ -21,13 +25,6 @@
 
                 <li class = "first">Age:</li>
                 <input type="text" name= "Age">
-
-                <!-- <br>
-                <select name="gender">
-                    <option value="Male">Male</option>
-                    <option value="Woman">Woman</option>
-                </select>
-                <br> -->
 
                 <li class = "first">Address:</li>
                 <input type="text" name= "Address" maxlength= "20">
@@ -39,8 +36,8 @@
                 <input type="text" name= "State" maxlength= "15">
 
                 <li class = "first">Sex:</li>
-                <input type="radio" value="boy" name= "Gender">Boy
-                <input type="radio" value="girl" name= "Gender">Girl
+                <input type="radio" value="boy" name= "Gender">Male
+                <input type="radio" value="girl" name= "Gender">Female
                 <br>
                 <input type="submit" name= "Submit" value= "Submit">
             </ul>

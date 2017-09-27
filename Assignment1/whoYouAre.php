@@ -8,17 +8,17 @@
         body    {  
             text-align: center;
         }
+
+        /* alignment for text file */
         div {
             height: 100px;    
             padding: 50px;
             text-align: center;
         }
-        radio.boy {
-            background-color: #B3E5FC;
-        }
     </style>
     <body>
         <h1>Who I am</h1>
+
        <?php
             $name = $_POST["Name"];
             $age = $_POST["Age"];
@@ -28,6 +28,7 @@
             $gender = $_POST["Gender"];
             echo "<br>";
 
+            // displays information
             $person = "My name is $name.<br>
                 I am $age years old. <br> 
                 I live at $address in $city, $state. <br>
@@ -35,13 +36,15 @@
             printf($person);
             echo "<br>";
 
-            if ($gender == "boy"|| $gender =="Boy") {
-                echo '<body style = "background-color:#B3E5FC">';
+            // background color changes depending on sex
+            if ($gender == "male"|| $gender =="Male") {
+                echo '<body style = "background-color:#B3E5FC">'; //blue
             } else {
-                echo '<body style = "background-color:#FFCDD2">';
+                echo '<body style = "background-color:#FFCDD2">'; //pink
             }
 
-            $year = date("Y") - $age;
+            //displays year consecutively from birth year to present year
+            $year = date("Y") - $age; //present year minus age provided on form
             for ($i = 0; $i <= $age; $i++)  {
                 echo $year."<br>";
                 $year ++;
@@ -49,13 +52,14 @@
             echo "<br>";
        ?>     
 
+        <!-- file display -->
         <div>
             <?php
                 $file = "PostPage.txt";
-                $openFile = fopen($file, "r");
-                $fileContents = fread($openFile, filesize($file));
-                echo "<p> $fileContents </p>";
-                fclose($openFile);
+                $openFile = fopen($file, "r"); //open file
+                $fileContents = fread($openFile, filesize($file)); //reading file
+                echo "<p> $fileContents </p>"; //displaying contents of file
+                fclose($openFile); //closing file
             ?>
         </div>
     </body>
