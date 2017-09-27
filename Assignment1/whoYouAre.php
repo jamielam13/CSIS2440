@@ -5,7 +5,12 @@
         <meta name= "viewport" content = "width=device-width, initial-scale=1">
     </head>
     <style>
-        
+        div {
+            width: 300px;
+            height: 100px;    
+            padding: 50px;
+            text-align: center;
+        }
     </style>
     <body>
        <?php
@@ -33,12 +38,16 @@
                 $year ++;
             }
             echo "<br>";
-
-            $file = "PostPage.txt";
-            $openFile = fopen($file, "r");
-            $fileContents = fread($openFile, filesize($file));
-            echo "<p> $fileContents </p>";
-            fclose($openFile);
        ?>     
+
+        <div>
+            <?php
+                $file = "PostPage.txt";
+                $openFile = fopen($file, "r");
+                $fileContents = fread($openFile, filesize($file));
+                echo "<p> $fileContents </p>";
+                fclose($openFile);
+            ?>
+        </div>
     </body>
 </html>
