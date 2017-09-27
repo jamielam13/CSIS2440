@@ -13,6 +13,9 @@
             padding: 50px;
             text-align: center;
         }
+        radio.boy {
+            background-color: #B3E5FC;
+        }
     </style>
     <body>
         <h1>Who I am</h1>
@@ -32,9 +35,9 @@
             printf($person);
             echo "<br>";
 
-            if ($gender = "boy"||"Boy") {
-                echo '<body style = "background-color:#B3E5FC">';
-            }
+            // if ($gender = "boy"||"Boy") {
+            //     echo '<body style = "background-color:#B3E5FC">';
+            // }
 
             $year = date("Y") - $age;
             for ($i = 0; $i <= $age; $i++)  {
