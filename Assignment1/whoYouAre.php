@@ -9,11 +9,9 @@
             text-align: center;
         }
         div {
-            width: 300px;
             height: 100px;    
             padding: 50px;
             text-align: center;
-            alignment: center;
         }
     </style>
     <body>
