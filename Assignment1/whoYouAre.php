@@ -37,7 +37,7 @@
             echo "<br>";
 
             // background color changes depending on sex
-            if ($gender == "male"|| $gender =="Male") {
+            if ($gender == "male"|| $gender == "Male") {
                 echo '<body style = "background-color:#B3E5FC">'; //blue
             } else {
                 echo '<body style = "background-color:#FFCDD2">'; //pink
