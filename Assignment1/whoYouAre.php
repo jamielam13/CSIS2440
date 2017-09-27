@@ -32,6 +32,12 @@
                 echo $year."<br>";
                 $year ++;
             }
+
+            $file = "PostPage.txt";
+            $openFile = fopen($file, "r");
+            $fileContents = fread($openFile, filesize($file));
+            echo $fileContents;
+            fclose($openFile);
        ?>     
     </body>
 </html>
