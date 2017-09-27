@@ -13,6 +13,7 @@
             height: 100px;    
             padding: 50px;
             text-align: center;
+            alignment: center;
         }
     </style>
     <body>
@@ -28,7 +29,7 @@
 
             $person = "My name is $name. I am $age years old. <br> 
                 I live at $address in $city, $state. <br>
-                I am a $gender";
+                I am a $gender<br>";
             printf($person);
             echo "<br>";
 
