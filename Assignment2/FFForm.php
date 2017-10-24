@@ -235,8 +235,8 @@
                 <tr>
                     <td align="right">Sex: </td>
                     <td>
-                        <input name="sex" type="radio" checked="checked" value="Male">Male 
-                        <input name="sex" type="radio" id="mypassword" value="Female">Female
+                        <input name="sex" type="radio" checked="checked" id="gender" value="Male">Male 
+                        <input name="sex" type="radio" id="gender" value="Female">Female
                     </td>
                 </tr>
                 <tr>
