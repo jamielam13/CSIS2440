@@ -134,9 +134,9 @@
                     </td>
                 </tr>
                 <tr>
-                    <td align="right">
-                        Birthday</td>
-                    <td><select name="month">
+                    <td align="right">Birthday</td>
+                    <td>
+                        <select name="month">
                             <option value='1'>1</option>
                             <option value='2'>2</option>
                             <option value='3'>3</option>
@@ -149,7 +149,7 @@
                             <option value='10'>10</option>
                             <option value='11'>11</option>
                             <option value='12'>12</option>
-                            </select>
+                        </select>
                         <select name="day">
                             <option value='1'>1</option>
                             <option value='2'>2</option>
@@ -182,7 +182,7 @@
                             <option value='29'>29</option>
                             <option value='30'>30</option>
                             <option value='31'>31</option>
-                            </select>
+                        </select>
                         <select name="year">
                             <option value='2017'>2017</option><option value='2016'>2016</option>
                             <option value='2015'>2015</option><option value='2014'>2014</option>
@@ -218,7 +218,7 @@
                             <option value='1955'>1955</option><option value='1954'>1954</option>
                             <option value='1953'>1953</option><option value='1952'>1952</option>
                             <option value='1951'>1951</option><option value='1950'>1950</option>
-                            </select>
+                        </select>
                     </td>
                     <td>&nbsp;
                     </td>
