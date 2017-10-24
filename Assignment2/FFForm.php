@@ -181,6 +181,7 @@
                             <option value='28'>28</option>
                             <option value='29'>29</option>
                             <option value='30'>30</option>
+                            <option value='31'>31</option>
                             </select>
                         <select name="year">
                             <option value='2017'>2017</option><option value='2016'>2016</option>
@@ -257,7 +258,7 @@
                 <tr>
                     <td>
                         <table>
-                            <tr>
+                            <tr align="center">
                                 <td> <input id="button_Search" type="submit" value="Search" name="requestType"/> </td>
                                 <td><input id="Button_update" type="submit" value="Update" name="requestType" onclick="return ValidUpdate()" /></td>
                                 <td><input id="Button_Input" type="submit" value="Create" name="requestType" onclick="return ValidCreate()"/></td>
