@@ -10,7 +10,7 @@
         <h1>Fill out the form</h1>
 
         <!-- form -->
-        <form id="Addressbook" method="post" action="results.php" onsubmit="return validateForm()" name="FFForm">
+        <form id="Addressbook" method="post" action="results.php" name="FFForm">
             <table cellpadding="0" cellspacing="1">
                 <tr>
                     <td colspan="3">
