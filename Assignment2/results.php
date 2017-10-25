@@ -70,11 +70,11 @@
                 </tr>
             </table>";
 
-            $sql = "INSERT INTO friendsAndFamily(fname, lname, phone, address, city, state, zip, myusername, mypassword, sex, relation) VALUES ($firstName, $lastName, $address, $city, $state, $zip, $userName, $password, $gender, $relation)";
+            // $sql = "INSERT INTO friendsAndFamily(fname, lname, phone, address, city, state, zip, myusername, mypassword, sex, relation) VALUES ($firstName, $lastName, $address, $city, $state, $zip, $userName, $password, $gender, $relation)";
 
-            if (!mysql_query($sql)) {
-                die('Error: '.mysql_error());
-            }
+            // if (!mysql_query($sql)) {
+            //     die('Error: '.mysql_error());
+            // }
 
             printf($table);
             echo"<br>";
