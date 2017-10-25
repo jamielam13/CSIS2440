@@ -70,9 +70,6 @@
                 </tr>
             </table>";
 
-            printf($table."Entry successfully added!");
-            echo"<br>";
-
             $sql = "INSERT INTO friendsAndFamily(fname, lname, phone, address, city, state, zip, myusername, mypassword, sex, relation) 
                 VALUES($firstName, $lastName, $address, $city, $state, $zip, $userName, $password, $gender, $relation)";
 
@@ -80,6 +77,9 @@
                 die('Error: '.mysql_error());
             }
             mysql_close();
+
+            printf($table."Entry successfully added!");
+            echo"<br>";
          ?>     
     </body>
 </html>
