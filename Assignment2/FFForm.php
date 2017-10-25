@@ -10,7 +10,7 @@
         <h1>Fill out the form</h1>
 
         <!-- form -->
-        <form id="Addressbook" method="post" action="results.php" onsubmit="return validateForm()">
+        <form id="Addressbook" method="post" action="results.php" onsubmit="return validateForm()" name="FFForm">
             <table cellpadding="0" cellspacing="1">
                 <tr>
                     <td colspan="3">
@@ -260,8 +260,8 @@
                         <table>
                             <tr align="center">
                                 <td> <input id="button_Search" type="submit" value="Search" name="requestType"/> </td>
-                                <td><input id="Button_update" type="submit" value="Update" name="requestType" onclick="return ValidUpdate()" /></td>
-                                <td><input id="Button_Input" type="submit" value="Create" name="requestType" onclick="return ValidCreate()"/></td>
+                                <td><input id="Button_update" type="submit" value="Update" name="requestType"/></td>
+                                <td><input id="Button_Input" type="submit" value="Create" name="requestType"/></td>
                             </tr>
                         </table>
                     </td>
