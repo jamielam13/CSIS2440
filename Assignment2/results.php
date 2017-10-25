@@ -49,13 +49,14 @@
 
             $table = "<table>
                 <tr>
-                    <th>Firstname</th>
-                    <th>Lastname</th>
-                    <th>Address</th>
-                    <th>City</th>
-                    <th>State</th>
-                    <th>Zip</th>
-                    <th>Phone</th>
+                    <th>'Firstname'</th>
+                    <th>'Lastname'</th>
+                    <th>'Address'</th>
+                    <th>'City'</th>
+                    <th>'State'</th>
+                    <th>'Zip'</th>
+                    <th>'Phone'</th>
+                    <th>'Relation'</th>
                 </tr>
                 <tr>
                     <td>$firstName</td>
