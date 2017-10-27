@@ -31,17 +31,18 @@
                 echo('Could not connect');
             }
 
-            $firstName = $_POST["fname"];
-            $lastName = $_POST["lname"];
-            $phoneNumber = $_POST["phone"];
-            $address = $_POST["address"];
-            $city = $_POST["city"];
-            $state = $_POST["state"];
+            $firstName = (string)$_POST["fname"];
+            $lastName = (string)$_POST["lname"];
+            $phoneNumber = (string)$_POST["phone"];
+            $address = (string)$_POST["address"];
+            $city = (string)$_POST["city"];
+            $state = (string)$_POST["state"];
             $zip = $_POST["zip"];
-            $userName = $_POST["myusername"];
-            $password = $_POST["mypassword"];
-            $gender = $_POST["sex"];
-            $relation = $_POST["relation"];
+            $userName = (string)$_POST["myusername"];
+            $password = (string)$_POST["mypassword"];
+            $gender = (string)$_POST["sex"];
+            $relation = (string)$_POST["relation"];
+
             echo "<br>";
 
             // $sql =  'CREATE TABLE FF (
