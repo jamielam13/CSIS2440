@@ -59,7 +59,7 @@
             //             Relation    TEXT    NOT NULL
             //         )';
 
-            $sql = "INSERT INTO FF(FirstName, LastName, PhoneNumber, Address, City, State, ZIP, UserName, Password, Gender, Relation) VALUES(0, '$firstName', '$lastName', '$phoneNumber', '$address', '$city', '$state', '$zip', '$userName', '$password', '$gender', '$relation')";
+            $sql = "INSERT INTO FF(FirstName, LastName, PhoneNumber, Address, City, State, ZIP, UserName, Password, Gender, Relation) VALUES('$firstName', '$lastName', '$phoneNumber', '$address', '$city', '$state', '$zip', '$userName', '$password', '$gender', '$relation')";
 
             $ret = pg_query($db, $sql);
             if(!$ret){
