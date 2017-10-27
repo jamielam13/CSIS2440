@@ -261,7 +261,7 @@
                             <tr align="center">
                                 <td> <input id="button_Search" type="submit" value="Search" name="requestType"/> </td>
                                 <td><input id="Button_update" type="submit" value="Update" name="requestType"/></td>
-                                <td><input id="Button_Input" type="submit" value="Create" name="requestType"/></td>
+                                <td><input id="Button_Input" type="submit" value="Create" name="requestType" onclick="return createButton()"/></td>
                             </tr>
                         </table>
                     </td>
