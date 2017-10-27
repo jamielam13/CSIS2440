@@ -59,16 +59,18 @@
             //             Relation    TEXT    NOT NULL
             //         )';
 
-            function createButton(){
-                $sql = "INSERT INTO FF(FirstName, LastName, PhoneNumber, Address, City, State, ZIP, UserName, Password, Gender, Relation) 
-                        VALUES('$firstName', '$lastName', '$phoneNumber', '$address', '$city', '$state', '$zip', '$userName', '$password', '$gender', '$relation')";
+            if($_GET){
+                if($_GET['requestTypeCreate']){
+                    $sql = "INSERT INTO FF(FirstName, LastName, PhoneNumber, Address, City, State, ZIP, UserName, Password, Gender, Relation) 
+                            VALUES('$firstName', '$lastName', '$phoneNumber', '$address', '$city', '$state', '$zip', '$userName', '$password', '$gender', '$relation')";
 
-                $ret = pg_query($db, $sql);
-                if(!$ret){
-                    echo pg_last_error($db);
-                }
-                else {
-                    echo "Insert was successful! \n";
+                    $ret = pg_query($db, $sql);
+                    if(!$ret){
+                        echo pg_last_error($db);
+                    }
+                    else {
+                        echo "Insert was successful! \n";
+                    }
                 }
             }
 
