@@ -38,7 +38,7 @@
             $city = $_POST["city"];
             $state = $_POST["state"];
             $zip = $_POST["zip"];
-            $userName = $_POST["myuserName"];
+            $userName = $_POST["myusername"];
             $password = $_POST["mypassword"];
             $gender = $_POST["sex"];
             $relation = $_POST["relation"];
