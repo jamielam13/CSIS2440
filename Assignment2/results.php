@@ -89,7 +89,7 @@
 
                     $sql = "SELECT FF.FirstName, FF.LastName, FF.PhoneNumber, FF.Address, FF.City, FF.State, FF.ZIP, FF.UserName, FF.Password, FF.Gender, FF.Relation 
                             FROM FF
-                            WHERE FirstName = '$firstName' OR LastName = '$lastName' OR Address = '$address' OR City = '$city' OR State = '$state' OR ZIP = '$zip' OR UserName = '$userName' OR Password = '$password' OR Gender = '$gender' OR Relation = '$relation';";
+                            WHERE FirstName = '$firstName' /*OR LastName = '$lastName' OR Address = '$address' OR City = '$city' OR State = '$state' OR ZIP = '$zip' OR UserName = '$userName' OR Password = '$password' OR Gender = '$gender' OR Relation = '$relation'*/;";
 
                     $ret = pg_query($db, $sql);
                     if(!$ret){
