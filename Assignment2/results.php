@@ -100,6 +100,10 @@
                         echo "Search was successful! \n";
                     }
 
+                    if(pg_num_rows($ret) == 0){
+                        echo "Zero rows returned from search...";
+                    }
+
                     while($row = pg_fetch_row($ret)){
                         $table = "<table>
                                         <tr>
