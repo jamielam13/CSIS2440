@@ -59,8 +59,8 @@
             //             Relation    TEXT    NOT NULL
             //         )';
 
-            if($_GET){
-                if($_GET['requestTypeCreate']){
+            if($_POST){
+                if($_POST['requestTypeCreate']){
                     $sql = "INSERT INTO FF(FirstName, LastName, PhoneNumber, Address, City, State, ZIP, UserName, Password, Gender, Relation) 
                             VALUES('$firstName', '$lastName', '$phoneNumber', '$address', '$city', '$state', '$zip', '$userName', '$password', '$gender', '$relation')";
 
