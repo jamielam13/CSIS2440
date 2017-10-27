@@ -93,15 +93,16 @@
                             WHERE FirstName = '$firstName' /*OR LastName = '$lastName' OR Address = '$address' OR City = '$city' OR State = '$state' OR ZIP = '$zip' OR UserName = '$userName' OR Password = '$password' OR Gender = '$gender' OR Relation = '$relation'*/;";
 
                     $ret = pg_query($db, $sql);
-                    if(!$ret){
-                        echo pg_last_error($db);
-                    }
-                    else {
-                        echo "Search was successful! \n";
-                    }
-
                     if(pg_num_rows($ret) == 0){
                         echo "Zero rows returned from search...";
+                    }
+                    else{
+                        if(!$ret){
+                            echo pg_last_error($db);
+                        }
+                        else {
+                            echo "Search was successful! \n";
+                        }
                     }
 
                     while($row = pg_fetch_row($ret)){
