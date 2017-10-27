@@ -23,9 +23,9 @@
             $host = "host = ec2-23-21-220-48.compute-1.amazonaws.com";
             $port = "port = 5432";
             $dbname = "dbname = d52gdmpv25bd6a";
-            $credentials = "user = d52gdmpv25bd6a password = 2ea2102f524bb14b766ff215e1551c2ce3d01961e2bfcbc50499ecddd449f83d";
+            $credentials = "user = dpqaocaoxtoydl password = 2ea2102f524bb14b766ff215e1551c2ce3d01961e2bfcbc50499ecddd449f83d";
 
-            $db  = pg_connect("host=ec2-23-21-220-48.compute-1.amazonaws.com dbname=d52gdmpv25bd6a user=d52gdmpv25bd6a password=2ea2102f524bb14b766ff215e1551c2ce3d01961e2bfcbc50499ecddd449f83d");
+            $db  = pg_connect("host=ec2-23-21-220-48.compute-1.amazonaws.com port=5432 dbname=d52gdmpv25bd6a user=dpqaocaoxtoydl password=2ea2102f524bb14b766ff215e1551c2ce3d01961e2bfcbc50499ecddd449f83d");
 
             if (!$db) {
                 echo('Could not connect');
