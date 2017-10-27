@@ -44,27 +44,30 @@
             $relation = $_POST["relation"];
             echo "<br>";
 
-            $sql =  'CREATE TABLE FF (
-                        ID  INT PRIMARY KEY NOT NULL,
-                        FirstName   TEXT    NOT NULL,
-                        LastName    TEXT    NOT NULL,
-                        PhoneNumber TEXT    NOT NULL,
-                        Address     TEXT    NOT NULL,
-                        City        TEXT    NOT NULL,
-                        State       TEXT    NOT NULL,
-                        ZIP         INT     NOT NULL,
-                        UserName    TEXT    NOT NULL,
-                        Password    TEXT    NOT NULL,
-                        Gender      TEXT    NOT NULL,
-                        Relation    TEXT    NOT NULL
-                    )';
+            // $sql =  'CREATE TABLE FF (
+            //             ID  INT PRIMARY KEY NOT NULL,
+            //             FirstName   TEXT    NOT NULL,
+            //             LastName    TEXT    NOT NULL,
+            //             PhoneNumber TEXT    NOT NULL,
+            //             Address     TEXT    NOT NULL,
+            //             City        TEXT    NOT NULL,
+            //             State       TEXT    NOT NULL,
+            //             ZIP         INT     NOT NULL,
+            //             UserName    TEXT    NOT NULL,
+            //             Password    TEXT    NOT NULL,
+            //             Gender      TEXT    NOT NULL,
+            //             Relation    TEXT    NOT NULL
+            //         )';
+
+            $sql = 'INSERT INTO FF(ID, FirstName, LastName, PhoneNumber, Address, City, State, ZIP, UserName, Password, Gender, Relation)
+                                VALUES($firstName, $lastName, $phoneNumber, $address, $city, $state, $city, $zip, $userName, $password, $gender, $relation)';
 
             $ret = pg_query($db, $sql);
             if(!$ret){
                 echo pg_last_error($db);
             }
             else {
-                echo "Table was created successfully! \n";
+                echo "Insert was successful! \n";
             }
 
             $table = "<table>
