@@ -87,7 +87,7 @@
                 }
                 else if($_POST['requestTypeSearch']){
 
-                    $sql = "SELECT FF.FirstName, FF.LastName, FF.PhoneNumber, FF.Address, FF.City, FF.State, FF.ZIP, FF.Gender, FF.Relation 
+                    $sql = "SELECT FF.FirstName, FF.LastName, FF.PhoneNumber, FF.Address, FF.City, FF.State, FF.ZIP, FF.Relation 
                             FROM FF
                             WHERE FirstName = '$firstName' /*OR LastName = '$lastName' OR Address = '$address' OR City = '$city' OR State = '$state' OR ZIP = '$zip' OR UserName = '$userName' OR Password = '$password' OR Gender = '$gender' OR Relation = '$relation'*/;";
 
