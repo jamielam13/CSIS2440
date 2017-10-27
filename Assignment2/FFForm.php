@@ -259,8 +259,8 @@
                     <td>
                         <table>
                             <tr align="center">
-                                <td> <input id="button_Search" type="submit" value="Search" name="requestType"/> </td>
-                                <td><input id="Button_update" type="submit" value="Update" name="requestType"/></td>
+                                <td> <input id="button_Search" type="submit" value="Search" name="requestTypeSearch"/> </td>
+                                <td><input id="Button_update" type="submit" value="Update" name="requestTypeUpdate"/></td>
                                 <td><input id="Button_Input" type="submit" value="Create" name="requestTypeCreate"/></td>
                             </tr>
                         </table>

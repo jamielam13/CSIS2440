@@ -58,6 +58,7 @@
             //             Gender      TEXT    NOT NULL,
             //             Relation    TEXT    NOT NULL
             //         )';
+            $firstTable = true;
 
             if($_POST){
                 if($_POST['requestTypeCreate']){
@@ -72,35 +73,92 @@
                         echo "Insert was successful! \n";
                     }
                 }
+                else if($_POST['requestTypeUpdate']){
+                    $sql = "UPDATE FF SET FirstName = '$firstName', LastName = '$lastName', Address = '$address', City = '$city', State = '$state', ZIP = '$zip', UserName = '$userName', Password = '$password', Gender = '$gender', Relation = '$relation'
+                            WHERE PhoneNumber = '$phoneNumber';";
+
+                    $ret = pg_query($db, $sql);
+                    if(!$ret){
+                        echo pg_last_error($db);
+                    }
+                    else {
+                        echo "Update was successful! \n";
+                    }
+                }
+                else if($_POST['requestTypeSearch']){
+
+                    $sql = "SELECT FF.FirstName, FF.LastName, FF.PhoneNumber, FF.Address, FF.City, FF.State, FF.ZIP, FF.UserName, FF.Password, FF.Gender, FF.Relation 
+                            FROM FF
+                            WHERE FirstName = '$firstName' OR LastName = '$lastName' OR Address = '$address' OR City = '$city' OR State = '$state' OR ZIP = '$zip' OR UserName = '$userName' OR Password = '$password' OR Gender = '$gender' OR Relation = '$relation';";
+
+                    $ret = pg_query($db, $sql);
+                    if(!$ret){
+                        echo pg_last_error($db);
+                    }
+                    else {
+                        echo "Search was successful! \n";
+                    }
+
+                    while($row = pg_fetch_row($ret)){
+                        $table = "<table>
+                                        <tr>
+                                            <th>Firstname</th>
+                                            <th>Lastname</th>
+                                            <th>Address</th>
+                                            <th>City</th>
+                                            <th>State</th>
+                                            <th>Zip</th>
+                                            <th>Phone</th>
+                                            <th>Relation</th>
+                                        </tr>
+                                        <tr>
+                                            <td>$row[0]</td>
+                                            <td>$row[1]</td>
+                                            <td>$row[2]</td>
+                                            <td>$row[3]</td>
+                                            <td>$row[4]</td>
+                                            <td>$row[5]</td>
+                                            <td>$row[6]</td>
+                                            <td>$row[7]</td>
+                                            <td>$row[8]</td>
+                                        </tr>
+                                </table>";
+                        printf($table);
+                    }
+
+                    $firstTable = false;
+                }
+            }
+
+            if($firstTable){
+                $table = "<table>
+                            <tr>
+                                <th>Firstname</th>
+                                <th>Lastname</th>
+                                <th>Address</th>
+                                <th>City</th>
+                                <th>State</th>
+                                <th>Zip</th>
+                                <th>Phone</th>
+                                <th>Relation</th>
+                            </tr>
+                            <tr>
+                                <td>$firstName</td>
+                                <td>$lastName</td>
+                                <td>$address</td>
+                                <td>$city</td>
+                                <td>$state</td>
+                                <td>$zip</td>
+                                <td>$phoneNumber</td>
+                                <td>$gender</td>
+                                <td>$relation</td>
+                            </tr>
+                        </table>";
+
+                printf($table);
             }
 
             
-
-            $table = "<table>
-                <tr>
-                    <th>Firstname</th>
-                    <th>Lastname</th>
-                    <th>Address</th>
-                    <th>City</th>
-                    <th>State</th>
-                    <th>Zip</th>
-                    <th>Phone</th>
-                    <th>Relation</th>
-                </tr>
-                <tr>
-                    <td>$firstName</td>
-                    <td>$lastName</td>
-                    <td>$address</td>
-                    <td>$city</td>
-                    <td>$state</td>
-                    <td>$zip</td>
-                    <td>$phoneNumber</td>
-                    <td>$gender</td>
-                    <td>$relation</td>
-                </tr>
-            </table>";
-
-            printf($table);
             echo"<br>";
             pg_close($db);
          ?>     
