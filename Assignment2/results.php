@@ -20,18 +20,15 @@
         <h1>Results</h1>
 
        <?php
-            define('DB_NAME', 'Assignment1');
-            define('DB_USER', 'root');
-            define('DB_PASSWORD', '');
-            define('DB_HOST', 'local host');
+            $host = "host = ec2-23-21-220-48.compute-1.amazonaws.com";
+            $port = "port = 5432";
+            $dbname = "dbname = d52gdmpv25bd6a";
+            $credentials = "user = d52gdmpv25bd6a password = 2ea2102f524bb14b766ff215e1551c2ce3d01961e2bfcbc50499ecddd449f83d";
 
-            $link = mysql_connect(DB_NAME, DB_USER, DB_PASSWORD, DB_HOST);
-            if (!$link) {
-                die('Could not connect: '.mysql_error());
-            }
-            $db_selected = mysql_select_db(DB_NAME, $link);
-            if (!$db_selected)  {
-                    die('Cannot use '.DB_NAME.':'.mysql_error());
+            $db  = pg_connect( "$host $port $dbname $credentials" );
+
+            if (!$db) {
+                echo('Could not connect');
             }
 
             $firstName = $_POST["fname"];
@@ -46,6 +43,29 @@
             $gender = $_POST["sex"];
             $relation = $_POST["relation"];
             echo "<br>";
+
+            $sql =  'CREATE TABLE FF (
+                        ID  INT PRIMARY KEY NOT NULL,
+                        FirstName   TEXT    NOT NULL,
+                        LastName    TEXT    NOT NULL,
+                        PhoneNumber TEXT    NOT NULL,
+                        Address     TEXT    NOT NULL,
+                        City        TEXT    NOT NULL,
+                        State       TEXT    NOT NULL,
+                        ZIP         INT     NOT NULL,
+                        UserName    TEXT    NOT NULL,
+                        Password    TEXT    NOT NULL,
+                        Gender      TEXT    NOT NULL,
+                        Relation    TEXT    NOT NULL
+                    )';
+
+            $ret = pg_query($db, $sql);
+            if(!$ret){
+                echo pg_last_error($db);
+            }
+            else {
+                echo "Table was created successfully! \n";
+            }
 
             $table = "<table>
                 <tr>
@@ -71,15 +91,9 @@
                 </tr>
             </table>";
 
-            // $sql = "INSERT INTO friendsAndFamily(fname, lname, phone, address, city, state, zip, myusername, mypassword, sex, relation) VALUES ($firstName, $lastName, $address, $city, $state, $zip, $userName, $password, $gender, $relation)";
-
-            // if (!mysql_query($sql)) {
-            //     die('Error: '.mysql_error());
-            // }
-
             printf($table);
             echo"<br>";
-            mysql_close();
+            pg_close($db);
          ?>     
     </body>
 </html>
