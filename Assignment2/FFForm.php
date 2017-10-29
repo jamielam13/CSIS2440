@@ -10,6 +10,7 @@
         }
 
         table {
+            text-align: center;
             margin-left: auto;
             margin-right: auto;
         }
@@ -22,7 +23,7 @@
 
         <!-- form -->
         <form id="Addressbook" method="post" action="results.php" name="FFForm">
-            <table>
+            <table cellpadding="0" cellspacing="1">
                 <tr>
                     <td colspan="3">
                         Please feel free to enter the name or phone number of the person you are looking 
