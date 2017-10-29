@@ -265,7 +265,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <table align="center">
+                        <table>
                             <tr>
                                 <td> <input id="button_Search" type="submit" value="Search" name="requestTypeSearch"/> </td>
                                 <td><input id="Button_update" type="submit" value="Update" name="requestTypeUpdate"/></td>
