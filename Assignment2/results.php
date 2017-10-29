@@ -8,13 +8,6 @@
         body    {  
             text-align: center;
         }
-
-        /* alignment for text file */
-        div {
-            height: 100px;    
-            padding: 50px;
-            text-align: center;
-        }
     </style>
     <body>
         <h1>Results</h1>

@@ -5,6 +5,14 @@
         <meta name= "viewport" content = "width=device-width, initial-scale=1">
     </head>
     <style>
+        body {
+            text-align: center;
+        }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+        }
     </style>
     <body>
         <h1>Fill out the form</h1>
@@ -257,8 +265,8 @@
                 </tr>
                 <tr>
                     <td>
-                        <table>
-                            <tr align="center">
+                        <table align="center">
+                            <tr>
                                 <td> <input id="button_Search" type="submit" value="Search" name="requestTypeSearch"/> </td>
                                 <td><input id="Button_update" type="submit" value="Update" name="requestTypeUpdate"/></td>
                                 <td><input id="Button_Input" type="submit" value="Create" name="requestTypeCreate"/></td>
