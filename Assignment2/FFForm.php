@@ -12,6 +12,9 @@
             margin-left: auto;
             margin-right: auto;
         }
+        tr, td {
+            text-align: left;
+        }
     </style>
     <body>
         <h1>Fill out the form</h1>
