@@ -3,33 +3,24 @@
 <html lang = "en"> 
     <head>
         <meta name= "viewport" content = "width=device-width, initial-scale=1">
+        <title>Friends and Family Form</title>
     </head>
-    <style>
-        /* body {
-            text-align: center;
-        }
-
-        table {
-            text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-        } */
-
-        /* #container{padding:30px 0;}
-        #container section{display:block; width:100%; margin:0 0 50px 0; padding:0;}
-        #container .last{margin:0;}
-        #container .more{text-align:right;} */
-    </style>
     <body>
-        <h1>Fill out the form</h1>
+        <h1>Friends and Family</h1>
+        <h3>Please fill out the form</h3>
         <div id="container" class="clear">
             <!-- form -->
             <form id="Addressbook" method="post" action="results.php" name="FFForm">
                 <table cellpadding="0" cellspacing="1">
                     <tr>
                         <td colspan="3">
-                            Please feel free to enter the name or phone number of the person you are looking 
-                            for to get the contact information.
+                            To update an entry, please fill out the entire form, and changes what
+                            you want to change.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            To search for an entry, please use first name only.
                         </td>
                     </tr>
                     <tr>
