@@ -265,13 +265,13 @@
                         </td>
                     </tr>
                     <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
                         <td>
                             <table>
                                 <tr>
-                                    <td>&nbsp;</td>
-                                    <td>&nbsp;</td>
-                                    <td>&nbsp;</td>
-                                    <td>&nbsp;</td>
                                     <td><input id="button_Search" type="submit" value="Search" name="requestTypeSearch"/></td>
                                     <td><input id="Button_update" type="submit" value="Update" name="requestTypeUpdate"/></td>
                                     <td><input id="Button_Input" type="submit" value="Create" name="requestTypeCreate"/></td>
