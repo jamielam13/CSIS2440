@@ -266,7 +266,7 @@
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
-                        <td>HERE</td>
+                        <td><input id="button_Search" type="submit" value="Search" name="requestTypeSearch"></td>
                         <td>
                             <table>
                                 <tr>
