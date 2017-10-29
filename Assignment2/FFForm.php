@@ -264,9 +264,7 @@
                             </select>
                         </td>
                     </tr>
-                    <
                     <tr>
-                        <td>&nbsp;</td>
                         <td>
                             <table>
                                 <tr>
@@ -276,6 +274,7 @@
                                 </tr>
                             </table>
                         </td>
+                        <td>&nbsp;</td>
                     </tr>
                 </table>
             </form>  
