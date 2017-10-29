@@ -22,7 +22,7 @@
     </style>
     <body>
         <h1>Fill out the form</h1>
-
+        <div id="container" class="clear">
         <!-- form -->
         <form id="Addressbook" method="post" action="results.php" name="FFForm">
             <table cellpadding="0" cellspacing="1">
@@ -274,6 +274,7 @@
                     </td>
                 </tr>
             </table>
-        </form>    
+        </form>  
+        </div>  
     </body>
 </html>
