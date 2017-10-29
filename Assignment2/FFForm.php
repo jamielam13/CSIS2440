@@ -35,7 +35,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td align="right">
+                    <td>
                         First Name</td>
                     <td align="left">
                         <input id="fname" type="text" name="fname" size="35" /> </td>
@@ -43,7 +43,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td align="right">
+                    <td>
                         Last Name</td>
                     <td align="left">
                         <input id="lname" name="lname" type="text" size="35" /></td>
@@ -51,7 +51,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td align="right">
+                    <td>
                         Phone Number</td>
                     <td align="left">
                         <input id="phone" name="phone" type="text" size="35" /></td>
@@ -59,7 +59,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td align="right">
+                    <td>
                         Address</td>
                     <td>
                         <input id="address" name="address" type="text" size="35" /></td>
@@ -67,7 +67,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td align="right">
+                    <td>
                         City</td>
                     <td>
                         <input id="city" name="city" type="text" size="35" /></td>
@@ -75,7 +75,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td align="right">
+                    <td>
                         State</td>
                     <td class="selection">
                         <select name="state">
@@ -134,7 +134,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td align="right">
+                    <td>
                         Zip</td>
                     <td>
                         <input id="zip" name="zip" type="text" size="35" /></td>
@@ -142,7 +142,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td align="right">Birthday</td>
+                    <td>Birthday</td>
                     <td>
                         <select name="month">
                             <option value='1'>1</option>
@@ -232,23 +232,23 @@
                     </td>
                 </tr>
                 <tr>
-                    <td align="right">Username: </td>
+                    <td>Username: </td>
                     <td><input name="myusername" type="text" id="myusername" maxlength="15"><span id="user-result"></span>
                     </td>
                 </tr>
                 <tr>
-                    <td align="right">Password: </td>
+                    <td>Password: </td>
                     <td><input name="mypassword" type="password" id="mypassword"></td>
                 </tr>
                 <tr>
-                    <td align="right">Sex: </td>
+                    <td>Sex: </td>
                     <td>
                         <input name="sex" type="radio" checked="checked" id="gender" value="Male">Male 
                         <input name="sex" type="radio" id="gender" value="Female">Female
                     </td>
                 </tr>
                 <tr>
-                    <td align="right" >
+                    <td>
                         Relationship</td>
                     <td class="selection">
                         <select name="relation">
