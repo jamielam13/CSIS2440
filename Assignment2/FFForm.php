@@ -267,6 +267,7 @@
                     </tr>
                     <tr>
                         <td>
+                            <center>
                             <table>
                                 <tr>
                                     <td> <input id="button_Search" type="submit" value="Search" name="requestTypeSearch"/> </td>
@@ -274,6 +275,7 @@
                                     <td><input id="Button_Input" type="submit" value="Create" name="requestTypeCreate"/></td>
                                 </tr>
                             </table>
+                            </center>
                         </td>
                     </tr>
                 </table>
