@@ -15,10 +15,10 @@
             margin-right: auto;
         } */
 
-        #container{padding:30px 0;}
+        /* #container{padding:30px 0;}
         #container section{display:block; width:100%; margin:0 0 50px 0; padding:0;}
         #container .last{margin:0;}
-        #container .more{text-align:right;}
+        #container .more{text-align:right;} */
     </style>
     <body>
         <h1>Fill out the form</h1>
