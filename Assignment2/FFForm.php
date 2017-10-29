@@ -39,48 +39,42 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        First Name</td>
+                    <td>First Name</td>
                     <td>
                         <input id="fname" type="text" name="fname" size="35" /> </td>
                     <td>
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        Last Name</td>
+                    <td>Last Name</td>
                     <td>
                         <input id="lname" name="lname" type="text" size="35" /></td>
                     <td>
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        Phone Number</td>
+                    <td>Phone Number</td>
                     <td>
                         <input id="phone" name="phone" type="text" size="35" /></td>
                     <td>
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        Address</td>
+                    <td>Address</td>
                     <td>
                         <input id="address" name="address" type="text" size="35" /></td>
                     <td>&nbsp;
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        City</td>
+                    <td>City</td>
                     <td>
                         <input id="city" name="city" type="text" size="35" /></td>
                     <td>&nbsp;
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        State</td>
+                    <td>State</td>
                     <td class="selection">
                         <select name="state">
                             <option value="AL">Alabama</option>
@@ -138,8 +132,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        Zip</td>
+                    <td>Zip</td>
                     <td>
                         <input id="zip" name="zip" type="text" size="35" /></td>
                     <td>&nbsp;
