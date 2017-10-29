@@ -5,7 +5,7 @@
         <meta name= "viewport" content = "width=device-width, initial-scale=1">
     </head>
     <style>
-        body {
+        /* body {
             text-align: center;
         }
 
@@ -13,7 +13,7 @@
             text-align: center;
             margin-left: auto;
             margin-right: auto;
-        }
+        } */
 
         #container{padding:30px 0;}
         #container section{display:block; width:100%; margin:0 0 50px 0; padding:0;}
