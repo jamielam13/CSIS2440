@@ -27,7 +27,7 @@
             <form id="Addressbook" method="post" action="results.php" name="FFForm">
                 <table cellpadding="0" cellspacing="1">
                     <tr>
-                        <td align="left">
+                        <td colspan="3">
                             Please feel free to enter the name or phone number of the person you are looking 
                             for to get the contact information.
                         </td>
@@ -261,8 +261,7 @@
                     <tr>
                         <td>
                             <table>
-                                <tr>
-                                    <td>&nbsp;</td>
+                                <tr align="right">
                                     <td><input id="button_Search" type="submit" value="Search" name="requestTypeSearch"/></td>
                                     <td><input id="Button_update" type="submit" value="Update" name="requestTypeUpdate"/></td>
                                     <td><input id="Button_Input" type="submit" value="Create" name="requestTypeCreate"/></td>
