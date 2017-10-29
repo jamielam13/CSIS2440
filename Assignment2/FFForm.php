@@ -33,50 +33,47 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>&nbsp;
-                        </td>
-                        <td>&nbsp;
-                        </td>
-                        <td>&nbsp;
-                        </td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
                     </tr>
                     <tr>
-                        <td>First Name</td>
-                        <td>
+                        <td align="right">First Name</td>
+                        <td align="left">
                             <input id="fname" type="text" name="fname" size="35" /> </td>
                         <td>
                         </td>
                     </tr>
                     <tr>
-                        <td>Last Name</td>
-                        <td>
+                        <td align="right">Last Name</td>
+                        <td align="left">
                             <input id="lname" name="lname" type="text" size="35" /></td>
                         <td>
                         </td>
                     </tr>
                     <tr>
-                        <td>Phone Number</td>
-                        <td>
+                        <td align="right">Phone Number</td>
+                        <td align="left">
                             <input id="phone" name="phone" type="text" size="35" /></td>
                         <td>
                         </td>
                     </tr>
                     <tr>
-                        <td>Address</td>
+                        <td align="right">Address</td>
                         <td>
                             <input id="address" name="address" type="text" size="35" /></td>
                         <td>&nbsp;
                         </td>
                     </tr>
                     <tr>
-                        <td>City</td>
+                        <td align="right">City</td>
                         <td>
                             <input id="city" name="city" type="text" size="35" /></td>
                         <td>&nbsp;
                         </td>
                     </tr>
                     <tr>
-                        <td>State</td>
+                        <td align="right">State</td>
                         <td class="selection">
                             <select name="state">
                                 <option value="AL">Alabama</option>
@@ -134,14 +131,14 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>Zip</td>
+                        <td align="right">Zip</td>
                         <td>
                             <input id="zip" name="zip" type="text" size="35" /></td>
                         <td>&nbsp;
                         </td>
                     </tr>
                     <tr>
-                        <td>Birthday</td>
+                        <td align="right">Birthday</td>
                         <td>
                             <select name="month">
                                 <option value='1'>1</option>
@@ -231,23 +228,23 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>Username: </td>
+                        <td align="right">Username: </td>
                         <td><input name="myusername" type="text" id="myusername" maxlength="15"><span id="user-result"></span>
                         </td>
                     </tr>
                     <tr>
-                        <td>Password: </td>
+                        <td align="right">Password: </td>
                         <td><input name="mypassword" type="password" id="mypassword"></td>
                     </tr>
                     <tr>
-                        <td>Sex: </td>
+                        <td align="right">Sex: </td>
                         <td>
                             <input name="sex" type="radio" checked="checked" id="gender" value="Male">Male 
                             <input name="sex" type="radio" id="gender" value="Female">Female
                         </td>
                     </tr>
                     <tr>
-                        <td>Relationship</td>
+                        <td align="right">Relationship</td>
                         <td class="selection">
                             <select name="relation">
                                 <option value="friend">Friend</option>
