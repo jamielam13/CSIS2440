@@ -13,6 +13,9 @@
             margin-left: auto;
             margin-right: auto;
         }
+        td {
+            align: left;
+        }
     </style>
     <body>
         <h1>Fill out the form</h1>
@@ -37,7 +40,7 @@
                 <tr>
                     <td>
                         First Name</td>
-                    <td align="left">
+                    <td>
                         <input id="fname" type="text" name="fname" size="35" /> </td>
                     <td>
                     </td>
@@ -45,7 +48,7 @@
                 <tr>
                     <td>
                         Last Name</td>
-                    <td align="left">
+                    <td>
                         <input id="lname" name="lname" type="text" size="35" /></td>
                     <td>
                     </td>
@@ -53,7 +56,7 @@
                 <tr>
                     <td>
                         Phone Number</td>
-                    <td align="left">
+                    <td>
                         <input id="phone" name="phone" type="text" size="35" /></td>
                     <td>
                     </td>
