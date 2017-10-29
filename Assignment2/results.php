@@ -149,7 +149,6 @@
                                 <td>$state</td>
                                 <td>$zip</td>
                                 <td>$phoneNumber</td>
-                                <td>$gender</td>
                                 <td>$relation</td>
                             </tr>
                         </table>";
