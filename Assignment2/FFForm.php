@@ -22,7 +22,7 @@
 
         <!-- form -->
         <form id="Addressbook" method="post" action="results.php" name="FFForm">
-            <table cellpadding="0" cellspacing="1">
+            <table>
                 <tr>
                     <td colspan="3">
                         Please feel free to enter the name or phone number of the person you are looking 
