@@ -27,7 +27,7 @@
             <form id="Addressbook" method="post" action="results.php" name="FFForm">
                 <table cellpadding="0" cellspacing="1">
                     <tr>
-                        <td colspan="3">
+                        <td colspan="3" align="left">
                             Please feel free to enter the name or phone number of the person you are looking 
                             for to get the contact information.
                         </td>
