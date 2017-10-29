@@ -250,8 +250,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            Relationship</td>
+                        <td>Relationship</td>
                         <td class="selection">
                             <select name="relation">
                                 <option value="friend">Friend</option>
@@ -265,6 +264,7 @@
                             </select>
                         </td>
                     </tr>
+                    <
                     <tr>
                         <td>&nbsp;</td>
                         <td>
@@ -276,7 +276,6 @@
                                 </tr>
                             </table>
                         </td>
-                        <td>&nbsp;</td>
                     </tr>
                 </table>
             </form>  
