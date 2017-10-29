@@ -19,8 +19,11 @@
                         </td>
                     </tr>
                     <tr>
+                        <td colspan="3">&nbsp;</td>
+                    </tr>
+                    <tr>
                         <td colspan="3">
-                            To search for an entry, please use first name only.
+                            Please use first and last name to search.
                         </td>
                     </tr>
                     <tr>
