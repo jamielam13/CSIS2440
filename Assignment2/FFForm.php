@@ -14,7 +14,7 @@
             margin-right: auto;
         }
         tr, td {
-            text-align: left;
+            text-align: justify;
         }
     </style>
     <body>
