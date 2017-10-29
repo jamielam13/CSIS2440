@@ -6,7 +6,7 @@
     </head>
     <style>
         body {
-            align: center;
+            text-align: center;
         }
 
         table {
