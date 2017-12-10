@@ -8,17 +8,18 @@
         <script type = "text/javascript">
             //form validation
             function validateForm() {
-                if (document.myForm.fname.value == " " || document.myFrom.fname.value == null)  {
-                    alert("First Name must be entered!");
-                    document.myForm.fname.focus();
-                    return false;
-                }
                 var nameRegex = /^[a-zA-Z]+$/;
                 if (nameRegex.test(fname.value)== false) {
                     alert("First name must include letters only!")
                     document.myForm.fname.focus();
                     return false;
                 }
+                if (document.myForm.fname.value == " " || document.myFrom.fname.value == null)  {
+                    alert("First Name must be entered!");
+                    document.myForm.fname.focus();
+                    return false;
+                }
+                
                 if (nameRegex.test(lname.value)== false) {
                     alert("Last name must include letters only!")
                     document.myForm.lname.focus();
