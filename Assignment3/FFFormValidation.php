@@ -11,12 +11,12 @@
                 var nameRegex = /^[a-zA-Z]+$/;
                 if (nameRegex.test(fname.value)== false) {
                     alert("First name must include letters only!")
-                    document.FFForm.fname.focus();
+                    document.myForm.fname.focus();
                     return false;
                 }
-                if (document.FFForm.fname.value == "")  {
+                if (document.myForm.fname.value == "")  {
                     alert("First Name must be entered!");
-                    document.FFForm.fname.focus();
+                    document.myForm.fname.focus();
                     return false;
                 }
             }
@@ -27,7 +27,7 @@
         <h3>Please fill out the form</h3>
         <div id="container" class="clear">
             <!-- form -->
-            <form id="Addressbook" method="post" action="resultsvalidation.php" name="FFForm">
+            <form id="Addressbook" method="post" action="resultsvalidation.php" name="myForm">
                 <table cellpadding="0" cellspacing="1">
                     <tr>
                         <td colspan="3">
