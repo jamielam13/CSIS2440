@@ -33,9 +33,7 @@
                 }
                 //phone number validation
                 var phoneRegex = /^\(?\d{3}\)?-?\s*-?\d{4}$/;
-                if(phoneRegex.test(phone.value))    {
-                    return true;
-                }else   {
+                if(phoneRegex.test(phone.value)==false)    {
                     alert("This is not a valid phone number");
                     return false;
                 }
