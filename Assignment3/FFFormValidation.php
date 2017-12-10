@@ -9,8 +9,8 @@
             //form validation
             function validateForm() {
                 var nameRegex = /^[a-zA-Z]+$/;
-                if (nameRegex.test(fname.value)== false) {
-                    alert("First name must include letters only!")
+                if (nameRegex.test(fname.value)== false && document.myForm.fname.value == "") {
+                    alert("First name required and must include letters only!")
                     document.myForm.fname.focus();
                     return false;
                 }
