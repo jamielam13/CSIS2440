@@ -13,7 +13,8 @@
                     alert("First name must include letters only!")
                     document.myForm.fname.focus();
                     return false;
-                } else if (document.myForm.fname.value == " ")  {
+                }
+                if (document.myForm.fname.value == " " || document.myFrom.fname.value == null)  {
                     alert("First Name must be entered!");
                     document.myForm.fname.focus();
                     return false;
