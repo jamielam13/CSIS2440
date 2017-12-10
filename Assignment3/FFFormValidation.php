@@ -14,8 +14,8 @@
                     document.myForm.fname.focus();
                     return false;
                 }
-                if (document.myForm.fname.value == "")  {
-                    alert("First Name must be entered!");
+                if (nameRegex.test(fname.value)== false )  {
+                    alert("First Name must include letters only!");
                     document.myForm.fname.focus();
                     return false;
                 }
