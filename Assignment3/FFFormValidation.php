@@ -32,8 +32,9 @@
                     return false;
                 }
                 //phone number validation
-                if (document.myForm.phone.value == "") {
-                    alert("Phone cannot be blank!");
+                var phoneRegex = /^[0-9]+$/;
+                if (phoneRegex.test(phone.value)== false && document.myForm.phone.value == "") {
+                    alert("Phone cannot be blank and must include numbers only!");
                     document.myForm.phone.focus();
                     return false;
                 }
