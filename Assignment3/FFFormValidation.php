@@ -8,6 +8,7 @@
         <script type = "text/javascript">
             //form validation
             function validateForm() {
+                //first and last name validation
                 var nameRegex = /^[a-zA-Z]+$/;
                 if (nameRegex.test(fname.value)== false && document.myForm.fname.value == "") {
                     alert("First name required and must include letters only!")
@@ -30,7 +31,14 @@
                     document.myForm.lname.focus();
                     return false;
                 }
-            }
+                //phone number validation
+                var phoneRegex = /^\(?\d{3}\)?-?\s*-?\d{4}$/;
+                if(phoneRegex.test(phone.value))    {
+                    return true;
+                }else   {
+                    alert("This is not a valid phone number");
+                    return false;
+                }
         </script>
     </head>
     <body>
