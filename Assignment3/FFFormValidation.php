@@ -83,7 +83,7 @@
                     <tr>
                         <td align="right">Phone Number</td>
                         <td align="left">
-                            <input id="phone" name="phone" type="text" size="35" /></td>
+                            <input id="phone" name="phone" type="text" size="35 " required/></td>
                         <td>
                         </td>
                     </tr>
