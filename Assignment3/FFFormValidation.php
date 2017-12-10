@@ -27,7 +27,7 @@
         <h3>Please fill out the form</h3>
         <div id="container" class="clear">
             <!-- form -->
-            <form id="Addressbook" method="post" action="results.php" name="FFForm">
+            <form id="Addressbook" method="post" action="resultsValidation.php" name="FFForm">
                 <table cellpadding="0" cellspacing="1">
                     <tr>
                         <td colspan="3">
