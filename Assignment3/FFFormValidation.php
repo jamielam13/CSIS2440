@@ -15,33 +15,34 @@
                     alert("Form must be completed!!");
                     return false;
                 } 
-                else if (nameRegex.test(fname.value)== false && document.myForm.fname.value == "") {
+                if (nameRegex.test(fname.value)== false && document.myForm.fname.value == "") {
                         alert("First name required and must include letters only!")
                         document.myForm.fname.focus();
                         return false;
                     }
-                else if (nameRegex.test(fname.value)== false )  {
+                if (nameRegex.test(fname.value)== false )  {
                         alert("First Name must include letters only!");
                         document.myForm.fname.focus();
                         return false;
                     }
                     
-                else if (nameRegex.test(lname.value)== false && document.myForm.lname.value == "") {
+                if (nameRegex.test(lname.value)== false && document.myForm.lname.value == "") {
                         alert("Last name required and must include letters only!")
                         document.myForm.lname.focus();
                         return false;
                     }
-                else if (nameRegex.test(lname.value)== false)  {
+                if (nameRegex.test(lname.value)== false)  {
                         alert("Last Name must include letters only!");
                         document.myForm.lname.focus();
                         return false;
                     }
                     //phone number validation
-                else (phoneRegex.test(phone.value)== false) {
+                if (phoneRegex.test(phone.value)== false) {
                         alert("Phone cannot be blank and must include numbers only!");
                         document.myForm.phone.focus();
                         return false;
                     }
+            }
         </script>
     </head>
     <body>
