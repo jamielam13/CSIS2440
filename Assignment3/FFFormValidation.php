@@ -20,13 +20,13 @@
                     return false;
                 }
                 
-                if (nameRegex.test(lname.value)== false) {
-                    alert("Last name must include letters only!")
+                if (nameRegex.test(lname.value)== false && document.myForm.lname.value == "") {
+                    alert("Last name required and must include letters only!")
                     document.myForm.lname.focus();
                     return false;
                 }
-                if (document.myForm.lname.value == "")  {
-                    alert("Last Name must be entered!");
+                if (nameRegex.test(lname.value)== false)  {
+                    alert("Last Name must include letters only!");
                     document.myForm.lname.focus();
                     return false;
                 }
