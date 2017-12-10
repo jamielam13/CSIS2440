@@ -14,7 +14,7 @@
                     document.myForm.fname.focus();
                     return false;
                 }
-                if (document.myForm.fname.value == "")  {
+                if (document.myForm.fname.value == " ")  {
                     alert("First Name must be entered!");
                     document.myForm.fname.focus();
                     return false;
@@ -24,7 +24,7 @@
                     document.myForm.lname.focus();
                     return false;
                 }
-                if (document.myForm.lname.value == "")  {
+                if (document.myForm.lname.value == " ")  {
                     alert("Last Name must be entered!");
                     document.myForm.lname.focus();
                     return false;
