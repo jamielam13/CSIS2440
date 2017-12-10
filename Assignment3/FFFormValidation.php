@@ -9,7 +9,7 @@
             //form validation
             function validateForm() {
                 var nameRegex = /^[a-zA-Z]+$/; //first and last name validation
-                var phoneRegex = /^\(?\d{3}\)?-?\s*-?\d{4}$/; //phone number validation
+                var phoneRegex = /^[0-9]+$/; //phone number validation
 
                 if (document.myForm.value = "") {
                     alert("Form must be completed!!");
