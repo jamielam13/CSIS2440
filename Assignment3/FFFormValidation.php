@@ -38,6 +38,13 @@
                     document.myForm.phone.focus();
                     return false;
                 }
+
+                //form completed validation
+                var formCompleted = document.myForm.value;
+                if (formCompleted = "") {
+                    alert("Form must be completed!!");
+                    return false;
+                }
         </script>
     </head>
     <body>
