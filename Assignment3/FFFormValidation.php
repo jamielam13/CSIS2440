@@ -16,33 +16,33 @@
                     alert("Form must be completed!!");
                     return false;
                 } 
-                if (nameRegex.test(fname.value)== false && document.myForm.fname.value == "") {
-                        alert("First name required and must include letters only!")
-                        document.myForm.fname.focus();
-                        return false;
-                    }
-                if (nameRegex.test(fname.value)== false )  {
-                        alert("First Name must include letters only!");
-                        document.myForm.fname.focus();
-                        return false;
-                    }
+                // if (nameRegex.test(fname.value)== false && document.myForm.fname.value == "") {
+                //         alert("First name required and must include letters only!")
+                //         document.myForm.fname.focus();
+                //         return false;
+                //     }
+                // if (nameRegex.test(fname.value)== false )  {
+                //         alert("First Name must include letters only!");
+                //         document.myForm.fname.focus();
+                //         return false;
+                //     }
                     
-                if (nameRegex.test(lname.value)== false && document.myForm.lname.value == "") {
-                        alert("Last name required and must include letters only!")
-                        document.myForm.lname.focus();
-                        return false;
-                    }
-                if (nameRegex.test(lname.value)== false)  {
-                        alert("Last Name must include letters only!");
-                        document.myForm.lname.focus();
-                        return false;
-                    }
-                    //phone number validation
-                if (phoneRegex.test(phone.value)== false) {
-                        alert("Phone cannot be blank and must include numbers only!");
-                        document.myForm.phone.focus();
-                        return false;
-                    }
+                // if (nameRegex.test(lname.value)== false && document.myForm.lname.value == "") {
+                //         alert("Last name required and must include letters only!")
+                //         document.myForm.lname.focus();
+                //         return false;
+                //     }
+                // if (nameRegex.test(lname.value)== false)  {
+                //         alert("Last Name must include letters only!");
+                //         document.myForm.lname.focus();
+                //         return false;
+                //     }
+                //     //phone number validation
+                // if (phoneRegex.test(phone.value)== false) {
+                //         alert("Phone cannot be blank and must include numbers only!");
+                //         document.myForm.phone.focus();
+                //         return false;
+                //     }
             }
         </script>
     </head>
