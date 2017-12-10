@@ -8,41 +8,41 @@
         <script type = "text/javascript">
             //form validation
             function validateForm() {
-                //first and last name validation
-                var nameRegex = /^[a-zA-Z]+$/;
-                if (nameRegex.test(fname.value)== false && document.myForm.fname.value == "") {
-                    alert("First name required and must include letters only!")
-                    document.myForm.fname.focus();
-                    return false;
-                }
-                if (nameRegex.test(fname.value)== false )  {
-                    alert("First Name must include letters only!");
-                    document.myForm.fname.focus();
-                    return false;
-                }
-                
-                if (nameRegex.test(lname.value)== false && document.myForm.lname.value == "") {
-                    alert("Last name required and must include letters only!")
-                    document.myForm.lname.focus();
-                    return false;
-                }
-                if (nameRegex.test(lname.value)== false)  {
-                    alert("Last Name must include letters only!");
-                    document.myForm.lname.focus();
-                    return false;
-                }
-                //phone number validation
-                var phoneRegex = /^\(?\d{3}\)?-?\s*-?\d{4}$/;
-                if (phoneRegex.test(phone.value)== false) {
-                    alert("Phone cannot be blank and must include numbers only!");
-                    document.myForm.phone.focus();
-                    return false;
-                }
+                var nameRegex = /^[a-zA-Z]+$/; //first and last name validation
+                var phoneRegex = /^\(?\d{3}\)?-?\s*-?\d{4}$/; //phone number validation
 
-                //form completed validation
-                var formCompleted = document.myForm.value;
-                if (formCompleted = "") {
+                if (document.myForm.value = "") {
                     alert("Form must be completed!!");
+
+                    //name validation
+                    if (nameRegex.test(fname.value)== false && document.myForm.fname.value == "") {
+                        alert("First name required and must include letters only!")
+                        document.myForm.fname.focus();
+                        return false;
+                    }
+                    if (nameRegex.test(fname.value)== false )  {
+                        alert("First Name must include letters only!");
+                        document.myForm.fname.focus();
+                        return false;
+                    }
+                    
+                    if (nameRegex.test(lname.value)== false && document.myForm.lname.value == "") {
+                        alert("Last name required and must include letters only!")
+                        document.myForm.lname.focus();
+                        return false;
+                    }
+                    if (nameRegex.test(lname.value)== false)  {
+                        alert("Last Name must include letters only!");
+                        document.myForm.lname.focus();
+                        return false;
+                    }
+                    //phone number validation
+                    if (phoneRegex.test(phone.value)== false) {
+                        alert("Phone cannot be blank and must include numbers only!");
+                        document.myForm.phone.focus();
+                        return false;
+                    }
+
                     return false;
                 }
         </script>
