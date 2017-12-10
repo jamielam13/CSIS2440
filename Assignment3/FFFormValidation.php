@@ -284,7 +284,7 @@
                         <td align="right">Relationship</td>
                         <td class="selection">
                             <select name="relation">
-                            <   option value="-">Select a relation</option>  
+                                <option value="-">Select a relation</option>  
                                 <option value="friend">Friend</option>
                                 <option value="grand">GrandParent</option>                                        
                                 <option value="child">Child</option>
