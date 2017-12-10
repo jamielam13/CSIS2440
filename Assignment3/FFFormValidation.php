@@ -19,6 +19,16 @@
                     document.myForm.fname.focus();
                     return false;
                 }
+                if (nameRegex.test(lname.value)== false) {
+                    alert("Last name must include letters only!")
+                    document.myForm.lname.focus();
+                    return false;
+                }
+                if (document.myForm.lname.value == "")  {
+                    alert("Last Name must be entered!");
+                    document.myForm.lname.focus();
+                    return false;
+                }
             }
         </script>
     </head>
