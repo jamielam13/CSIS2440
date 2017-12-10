@@ -33,7 +33,7 @@
                 }
                 //phone number validation
                 var phoneRegex = /^\(?\d{3}\)?-?\s*-?\d{4}$/;
-                if (phoneRegex.test(phone.value)== false && document.myForm.phone.value == "") {
+                if (phoneRegex.test(phone.value)== false) {
                     alert("Phone cannot be blank and must include numbers only!");
                     document.myForm.phone.focus();
                     return false;
