@@ -112,6 +112,7 @@
                         <td align="right">State</td>
                         <td class="selection">
                             <select name="state">
+                                <option value="-">Select a state</option>
                                 <option value="AL">Alabama</option>
                                 <option value="AK">Alaska</option>
                                 <option value="AZ">Arizona</option>
@@ -177,6 +178,7 @@
                         <td align="right">Birthday</td>
                         <td>
                             <select name="month">
+                                <option value="-">-</option>
                                 <option value='1'>1</option>
                                 <option value='2'>2</option>
                                 <option value='3'>3</option>
@@ -191,6 +193,7 @@
                                 <option value='12'>12</option>
                             </select>
                             <select name="day">
+                                <option value="-">-</option>
                                 <option value='1'>1</option>
                                 <option value='2'>2</option>
                                 <option value='3'>3</option>
@@ -224,6 +227,7 @@
                                 <option value='31'>31</option>
                             </select>
                             <select name="year">
+                                <option value="-">-</option>
                                 <option value='2017'>2017</option><option value='2016'>2016</option>
                                 <option value='2015'>2015</option><option value='2014'>2014</option>
                                 <option value='2013'>2013</option><option value='2012'>2012</option>
