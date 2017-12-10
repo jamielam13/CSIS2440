@@ -32,9 +32,9 @@
                     return false;
                 }
                 //phone number validation
-                var phoneRegex = /^\(?\d{3}\)?-?\s*-?\d{4}$/;
-                if(phoneRegex.test(phone.value)==false)    {
-                    alert("This is not a valid phone number");
+                if (document.myForm.phone.value == "") {
+                    alert("Phone cannot be blank!");
+                    document.myForm.phone.focus();
                     return false;
                 }
         </script>
