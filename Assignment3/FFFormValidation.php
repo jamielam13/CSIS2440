@@ -10,17 +10,18 @@
             function validateForm() {
                 var nameRegex = /^[a-zA-Z]+$/; //first and last name validation
                 var phoneRegex = /^[0-9]+$/; //phone number validation
+                var formValidation = document.myForm.value;
 
-                if (document.myForm.value = "") {
+                if (formValidation = "") {
                     alert("Form must be completed!!");
                     return false;
                 } 
-                else if (nameRegex.test(fname.value)== false && document.myForm.fname.value == "") {
+                if (nameRegex.test(fname.value)== false && document.myForm.fname.value == "") {
                         alert("First name required and must include letters only!")
                         document.myForm.fname.focus();
                         return false;
                     }
-                else(nameRegex.test(fname.value)== false )  {
+                if (nameRegex.test(fname.value)== false )  {
                         alert("First Name must include letters only!");
                         document.myForm.fname.focus();
                         return false;
@@ -50,7 +51,7 @@
         <h3>Please fill out the form</h3>
         <div id="container" class="clear">
             <!-- form -->
-            <form id="Addressbook" method="post" action="resultsvalidation.php" name="myForm" onsubmit="return (validateForm());">
+            <form id="Addressbook" method="post" action="resultsvalidation.php" name="myForm" onsubmit="return (validateForm());" required>
                 <table cellpadding="0" cellspacing="1">
                     <tr>
                         <td colspan="3">
