@@ -13,7 +13,7 @@
                 //var formValidation = document.myForm.value;
 
                 if (nameRegex.test(fname.value)== false && document.myForm.fname.value == "") {
-                    alert("First name required and must include letters only!")
+                    alert("Form must be filled out!")
                     document.myForm.fname.focus();
                     return false;
                     }
