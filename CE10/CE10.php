@@ -48,7 +48,7 @@
         </script>
     </head>
     <body>
-        <form action="addUser.php" method="post" name="myForm" onsubmit="return (validate());">
+        <form action="addUser.php" method="post" name="myForm" onsubmit="return (validate(email));">
             <table cellspacing="2" cellpadding="2" border="1">
                 <tr>
                     <td align="right">Name</td>
