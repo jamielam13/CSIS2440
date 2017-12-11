@@ -79,7 +79,7 @@
                                 <li id="number"><a href = "CE02.php">CE02</a></li>
                                 <li id="number"><a href = "/CE03/CE03.php">CE03</a></li>
                                 <li id="number"><a href = "/CE04/CE04.php">CE04</a></li>
-                                <li id="number"><a href = "">CE05</a></li>
+                                <li id="number"><a href = "CE05.php">CE05</a></li>
                                 <li id="number"><a href = "">CE06</a></li>
                                 <li id="number"><a href = "">CE07</a></li>
                                 <li id="number"><a href = "">CE08</a></li>
