@@ -12,7 +12,7 @@
 <body>
     <center>
     <h3>MySQL workbench setup</h3>
-    <img src="workbench.png" class="img-responsive margin img-roundded" style="display:inline" alt="setup" width="350" height="350">
+    <img src="workbench.png" class="img-responsive margin img-roundded" style="display:inline" alt="setup">
 </center>
 </body>
 </html>
