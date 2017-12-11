@@ -34,12 +34,8 @@
                     return false;
                 }
                     //phone number validation
-                if (phoneRegex.test(phone.value)== false) {
+                if (phoneRegex.test(phone.value)== false) || isNaN(document.myForm.phone.value) {
                     alert("Please provide phone number!");
-                    document.myForm.phone.focus();
-                    return false;
-                    } else (isNaN(document.myForm.phone.value)) {
-                    alert("Phone number must be numbers!");
                     document.myForm.phone.focus();
                     return false;
                 }
