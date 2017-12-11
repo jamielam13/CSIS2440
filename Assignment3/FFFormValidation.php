@@ -13,7 +13,7 @@
                 //var formValidation = document.myForm.value;
 
                 if (nameRegex.test(fname.value)== false && document.myForm.fname.value == "") {
-                    alert("First name required and must include letters only!")
+                    alert("Form must be filled out!!")
                     document.myForm.fname.focus();
                     return false;
                 }
@@ -38,8 +38,7 @@
                     alert("Please provide phone number!");
                     document.myForm.phone.focus();
                     return false;
-                    }
-                if (isNaN(document.myForm.phone.value)) {
+                    } else (isNaN(document.myForm.phone.value)) {
                     alert("Phone number must be numbers!");
                     document.myForm.phone.focus();
                     return false;
