@@ -52,20 +52,6 @@
             .navbar-nav  li a:hover {
                 color: #8B0000 !important;
             }
-
-            /*carousel*/    
-            div.c-wrapper{
-                width: 80%;
-                margin: auto;
-            }
-            .carousel-inner > .item > img, 
-            .carousel-inner > .item > a > img{
-                width: 100%; 
-                margin: auto;
-            }
-            .carousel-indicators{
-                bottom: -15%
-            }
            
         </style>
     </head>
@@ -92,15 +78,11 @@
                         </li>
                         <li><a href="#what">WHAT</a></li>
                         <li><a href="#where">WHERE</a></li>
-                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">PROJECTS<span class="caret"></span></a>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">ASSIGNMENTS<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li id="number"><a href="Map/WesterosMap.html">Map of Westeros</a></li>
-                                <li id="number"><a href="poisonTree/poisonTree.html">A Poison Tree</a></li>
-                                <li id="number"><a href="PizzaSite/GazolasPizza.html">Gazola's Pizza</a></li>
-                                <li id="number"><a href="guessingGame/guessingGame.html">Guessing Game</a></li>
-                                <li id="number"><a href="TicTacToe/TicTacToe.html">Tic Tac Toe</a></li>
-                                <li id="number"><a href="theBand/index.html">The Band</a></li>
-                                <li id="number"><a href="theCompany/companyIndex.html">The Company</a></li>
+                                <li id="number"><a href = "/Assignment1/whoAmI.php">Assignment 1</a</li>>
+                                <li id="number"><a href = "/Assignment2/FFForm.php">Assignment 2</a></li>
+                                <li id="number"><a href = "/Assignment3/FFFormValidation.php">Assignment 3</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -112,31 +94,7 @@
         <div class="container-fluid bg-1 text-center">
             <h3 id="who" class="margin">Who Am I?</h3>
             <!--<img src="Jamie.jpg" class="img-responsive img-rounded margin" style="display:inline" alt="Me" width="350" height="350">-->
-
-            <div class="c-wrapper">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                    </ol>
-
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <img src="SimplyMe/Jamie.jpg" alt="jamie" class="img-rounded" style="width:400px; height:300px">
-                        </div>
-
-                        <div class="item">
-                            <img src="SimplyMe/GroupJumpShot.jpg" alt="jump" class="img-rounded" style="width:300px; height:300px">
-                        </div>
-
-                        <div class="item">
-                            <img src="SimplyMe/Arrow.jpg" alt="Arrow" class="img-rounded" style="width:400px; height:300px">
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <img src='/Users/JamieLam/Desktop/CSIS2440/CSIS2440/GroupJumpShot.jpg' class="img-responsive margin img-square" style="widt:100%" alt="img">
             <br><br>
             <h3>I'm an adventurer</h3>
             <h3>I'm a traveler</h3>
@@ -165,7 +123,7 @@
                         My parents immigrated from Vietnam in the 80s. We had the opportunity to go back in 2014 to visit relatives and sight-see.<br>
                         This is the Dragon Bridge in Da Nang, one of the places that we visited.
                     </p>
-                    <img src="SimplyMe/bridge.jpg" class="img-responsive margin img-rounded" style="width:100%" alt="Image">
+                    <!-- <img src="SimplyMe/bridge.jpg" class="img-responsive margin img-rounded" style="width:100%" alt="Image"> -->
                 </div>
                 <div class="col-sm-4">
                     <h4>DisneyLand</h4>
@@ -173,7 +131,7 @@
                         The happiest place on earth! One of my favorite places to go. I've been a total of three times in my life so far. <br>
                         This is from our trip in 2013, right after I graduated from the University of Utah.<br>
                     </p>
-                    <img src="SimplyMe/DisneyLand.jpg" class="img-responsive margin img-rounded" style="width:100%" alt="Image">
+                    <!-- <img src="SimplyMe/DisneyLand.jpg" class="img-responsive margin img-rounded" style="width:100%" alt="Image"> -->
                 </div>
                 <div class="col-sm-4">
                     <h4>Moab</h4>
@@ -182,7 +140,7 @@
                         With their breathtaking vistas and arches, these two parks are truly inspiring and beautiful.<br>
                         Shown below is the view out of the Mesa Arch in Canyonlands.
                     </p>
-                    <img src="SimplyMe/canyonLands.JPG" class="img-responsive margin img-rounded" style="width:100%" alt="Image">
+                    <!-- <img src="SimplyMe/canyonLands.JPG" class="img-responsive margin img-rounded" style="width:100%" alt="Image"> -->
                 </div>
             </div>
         </div>
