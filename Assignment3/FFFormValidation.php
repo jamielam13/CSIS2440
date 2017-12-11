@@ -13,33 +13,32 @@
                 //var formValidation = document.myForm.value;
 
                 if (nameRegex.test(fname.value)== false && document.myForm.fname.value == "") {
-                    alert("Form must be filled out!!")
+                    alert("First name required and must include letters only!")
                     document.myForm.fname.focus();
                     return false;
-                }
+                    }
                 if (nameRegex.test(fname.value)== false )  {
                     alert("First Name must include letters only!");
                     document.myForm.fname.focus();
                     return false;
-                }
+                    }
                     
                 if (nameRegex.test(lname.value)== false && document.myForm.lname.value == "") {
                     alert("Last name required and must include letters only!")
                     document.myForm.lname.focus();
                     return false;
-                }
+                    }
                 if (nameRegex.test(lname.value)== false)  {
                     alert("Last Name must include letters only!");
                     document.myForm.lname.focus();
                     return false;
-                }
+                    }
                     //phone number validation
-                if (phoneRegex.test(phone.value)== false) || isNaN(document.myForm.phone.value)) {
+                if (phoneRegex.test(phone.value)== false || isNaN(document.myForm.phone.value) || document.myForm.phone.length != 10) {
                     alert("Please provide phone number!");
                     document.myForm.phone.focus();
                     return false;
-                }
-                
+                    }
             }
         </script>
     </head>
@@ -48,7 +47,7 @@
         <h3>Please fill out the form</h3>
         <div id="container" class="clear">
             <!-- form -->
-            <form id="Addressbook" method="post" action="resultsvalidation.php" name="myForm" onsubmit="return (validateForm());">
+            <form id="Addressbook" method="post" action="resultsvalidation.php" name="myForm" onsubmit="return (validateForm());" required>
                 <table cellpadding="0" cellspacing="1">
                     <tr>
                         <td colspan="3">
