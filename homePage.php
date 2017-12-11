@@ -94,7 +94,7 @@
         <div class="container-fluid bg-1 text-center">
             <h3 id="who" class="margin">Who Am I?</h3>
             <!--<img src="Jamie.jpg" class="img-responsive img-rounded margin" style="display:inline" alt="Me" width="350" height="350">-->
-            <img src='/Users/JamieLam/Desktop/CSIS2440/CSIS2440/GroupJumpShot.jpg' class="img-responsive margin img-square" style="widt:100%" alt="img">
+            <img src='/Users/JamieLam/Desktop/CSIS2440/CSIS2440/GroupJumpShot.jpg' class="img-responsive margin img-roundded" style="widt:100%" alt="img">
             <br><br>
             <h3>I'm an adventurer</h3>
             <h3>I'm a traveler</h3>
