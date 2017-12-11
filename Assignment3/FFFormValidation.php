@@ -13,32 +13,37 @@
                 //var formValidation = document.myForm.value;
 
                 if (nameRegex.test(fname.value)== false && document.myForm.fname.value == "") {
-                        alert("First name required and must include letters only!")
-                        document.myForm.fname.focus();
-                        return false;
-                    }
+                    alert("First name required and must include letters only!")
+                    document.myForm.fname.focus();
+                    return false;
+                }
                 if (nameRegex.test(fname.value)== false )  {
-                        alert("First Name must include letters only!");
-                        document.myForm.fname.focus();
-                        return false;
-                    }
+                    alert("First Name must include letters only!");
+                    document.myForm.fname.focus();
+                    return false;
+                }
                     
                 if (nameRegex.test(lname.value)== false && document.myForm.lname.value == "") {
-                        alert("Last name required and must include letters only!")
-                        document.myForm.lname.focus();
-                        return false;
-                    }
+                    alert("Last name required and must include letters only!")
+                    document.myForm.lname.focus();
+                    return false;
+                }
                 if (nameRegex.test(lname.value)== false)  {
-                        alert("Last Name must include letters only!");
-                        document.myForm.lname.focus();
-                        return false;
-                    }
+                    alert("Last Name must include letters only!");
+                    document.myForm.lname.focus();
+                    return false;
+                }
                     //phone number validation
-                if (phoneRegex.test(phone.value)== false || isNaN(document.myForm.phone.value)) {
-                        alert("Please provide phone number!");
-                        document.myForm.phone.focus();
-                        return false;
+                if (phoneRegex.test(phone.value)== false) {
+                    alert("Please provide phone number!");
+                    document.myForm.phone.focus();
+                    return false;
                     }
+                if (isNaN(document.myForm.phone.value)) {
+                    alert("Phone number must be numbers!");
+                    document.myForm.phone.focus();
+                    return false;
+                }
                 
             }
         </script>
