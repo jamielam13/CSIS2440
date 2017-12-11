@@ -34,8 +34,8 @@
                         return false;
                     }
                     //phone number validation
-                if (phoneRegex.test(phone.value)== false) {
-                        alert("Phone cannot be blank and must include numbers only!");
+                if (phoneRegex.test(phone.value)== false || isNaN(document.myForm.phone.value) || document.myForm.phone.length != 10) {
+                        alert("Please provide phone number!");
                         document.myForm.phone.focus();
                         return false;
                     }
