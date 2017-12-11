@@ -25,7 +25,9 @@
                 //     return false;
                 // } 
                 var emailRegex = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
-                if(emailRegex.test(emial.value)== false)    {
+                if(inputText.value.match(emailRegex))    {
+                    return true;
+                } else {
                     alert("Please provide a valid email!");
                     document.myForm.email.focus();
                     return false;
