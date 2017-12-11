@@ -24,7 +24,7 @@
                 //     document.myForm.email.focus();
                 //     return false;
                 // } 
-                var emailRegex = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+                var emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
                 if ( document.myForm.email.value =="" || emailRegex.test(email.value)== false)  {
                     alert("Valid email address required");
                     document.myForm.email.focus();
@@ -48,7 +48,7 @@
         </script>
     </head>
     <body>
-        <form action="addUser.php" method="post" name="myForm" onsubmit="return (validate(email));">
+        <form action="addUser.php" method="post" name="myForm" onsubmit="return (validate());">
             <table cellspacing="2" cellpadding="2" border="1">
                 <tr>
                     <td align="right">Name</td>
