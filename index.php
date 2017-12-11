@@ -116,13 +116,16 @@
                 A licensed pharmacy technician. A Quality Assurance Specialist in Pharmacy Operations at SelectHealth.<br>
                 First generation college graduate with a BS in Exercise Sport Science from the University of Utah.<br>
             </p>
+            <p><br></p>
             <p>
                 Crafting is my passion. Card making and quilting are my specialties.<br>
             </p>
+            <p><br></p>
             <p>
                 I love to read all sorts of books. If it catches my interest, I will most likely finish it in a day.<br>
                 My all time favorite series would be the Harry Potter Series by JK Rowling as well as the Fallen Series by Lauren Kate. <br>
             </p>
+            <p><br></p>
             <p>
                 A movie buff. I love to go to the movies. <br>
                 I love a good action movie and any chick flick too. <br>
