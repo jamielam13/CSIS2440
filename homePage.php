@@ -84,7 +84,7 @@
                                 <li id="number"><a href = "">CE06</a></li>
                                 <li id="number"><a href = "">CE07</a></li>
                                 <li id="number"><a href = "">CE08</a></li>
-                                <li id="number"><a href = "">CE08</a></li>
+                                <li id="number"><a href = "">CE09</a></li>
                                 <li id="number"><a href = "">CE10</a></li>
                                 <li id="number"><a href = "">CE11</a></li>
                             </ul>
