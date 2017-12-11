@@ -46,7 +46,7 @@
         </script>
     </head>
     <body>
-        <h3>CE09 assigment- form validation</h3>
+        <h3>CE09 assignment- form validation</h3>
         <form action="adduser.php" method="post" name="myForm" onsubmit="return (validate());">
             <table cellspacing="2" cellpadding="2" border="1">
                 <tr>
