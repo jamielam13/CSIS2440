@@ -25,7 +25,7 @@
                 //     return false;
                 // } 
                 var emailRegex = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
-                if ( document.myForm.email.value =="")  {
+                if ( document.myForm.email.value =="" || emailRegex.test(email.value)== false)  {
                     alert("Valid email address required");
                     document.myForm.email.focus();
                     return false;
