@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>An Example Form</title>
+        <title>CE09</title>
     <style>
       .signup {
         border:1px solid #999999;
@@ -46,6 +46,7 @@
         </script>
     </head>
     <body>
+        <h3>CE09 assigment- form validation</h3>
         <form action="adduser.php" method="post" name="myForm" onsubmit="return (validate());">
             <table cellspacing="2" cellpadding="2" border="1">
                 <tr>

@@ -89,7 +89,7 @@
                             </ul>
                         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">ASSIGNMENTS<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li id="number"><a href = "/Assignment1/whoAmI.php">Assignment 1</a</li>>
+                                <li id="number"><a href = "/Assignment1/whoAmI.php">Assignment 1</a</li>
                                 <li id="number"><a href = "/Assignment2/FFForm.php">Assignment 2</a></li>
                                 <li id="number"><a href = "/Assignment3/FFFormValidation.php">Assignment 3</a></li>
                             </ul>

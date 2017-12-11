@@ -3,7 +3,7 @@
 <html lang = "en"> 
     <head>
         <meta name= "viewport" content = "width=device-width, initial-scale=1">
-        <title>Friends and Family Form</title>
+        <title>Friends and Family Form-Assignment 2</title>
     </head>
     <body>
         <h1>Friends and Family</h1>

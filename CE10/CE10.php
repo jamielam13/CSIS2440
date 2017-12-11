@@ -47,6 +47,7 @@
         </script>
     </head>
     <body>
+        <h3>CE10 Assignment- email validation</h3>
         <form action="addUser.php" method="post" name="myForm" onsubmit="return (ValidateEmail(document.myForm.email));">
             <table cellspacing="2" cellpadding="2" border="1">
                 <tr>
