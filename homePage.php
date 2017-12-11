@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Theme Made By www.w3schools.com - No Copyright -->
+        <title>Jamie- Simply Me</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>
+            body {
+                font: 20px Montserrat, sans-serif;
+                line-height: 1.8;
+                color: #f5f6f7;
+            }
+            p {font-size: 16px;}
+            .margin {margin-bottom: 45px;}
+            .bg-1 {
+                background-color: #8B0000; /* Red */
+                color: #ffffff;
+            }
+            .bg-2 {
+                background-color: #333230; /* Dark Gray */
+                color: #ffffff;
+            }
+            .bg-3 {
+                background-color: #ffffff; /* White */
+                color: #555555;
+            }
+            .bg-4 {
+                background-color: #2f2f2f; /* Black Gray */
+                color: #ffffff;
+            }
+            .container-fluid {
+                padding-top: 70px;
+                padding-bottom: 70px;
+            }
+
+            /*navbar*/
+            .navbar {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border: 0;
+                border-radius: 0;
+                margin-bottom: 0;
+                font-size: 12px;
+                letter-spacing: 5px;
+                background-color: #F2F3F4;
+            }
+            .navbar-nav  li a:hover {
+                color: #8B0000 !important;
+            }
+
+            /*carousel*/    
+            div.c-wrapper{
+                width: 80%;
+                margin: auto;
+            }
+            .carousel-inner > .item > img, 
+            .carousel-inner > .item > a > img{
+                width: 100%; 
+                margin: auto;
+            }
+            .carousel-indicators{
+                bottom: -15%
+            }
+           
+        </style>
+    </head>
+    <body>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Me</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">WHO<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li id="number"><a href="resume/resume1.html">Resume</a></li>
+                                <li id="number"><a href="https://www.facebook.com/sass.mouth.james">Facebook</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#what">WHAT</a></li>
+                        <li><a href="#where">WHERE</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">PROJECTS<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li id="number"><a href="Map/WesterosMap.html">Map of Westeros</a></li>
+                                <li id="number"><a href="poisonTree/poisonTree.html">A Poison Tree</a></li>
+                                <li id="number"><a href="PizzaSite/GazolasPizza.html">Gazola's Pizza</a></li>
+                                <li id="number"><a href="guessingGame/guessingGame.html">Guessing Game</a></li>
+                                <li id="number"><a href="TicTacToe/TicTacToe.html">Tic Tac Toe</a></li>
+                                <li id="number"><a href="theBand/index.html">The Band</a></li>
+                                <li id="number"><a href="theCompany/companyIndex.html">The Company</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- First Container -->
+        <div class="container-fluid bg-1 text-center">
+            <h3 id="who" class="margin">Who Am I?</h3>
+            <!--<img src="Jamie.jpg" class="img-responsive img-rounded margin" style="display:inline" alt="Me" width="350" height="350">-->
+
+            <div class="c-wrapper">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="SimplyMe/Jamie.jpg" alt="jamie" class="img-rounded" style="width:400px; height:300px">
+                        </div>
+
+                        <div class="item">
+                            <img src="SimplyMe/GroupJumpShot.jpg" alt="jump" class="img-rounded" style="width:300px; height:300px">
+                        </div>
+
+                        <div class="item">
+                            <img src="SimplyMe/Arrow.jpg" alt="Arrow" class="img-rounded" style="width:400px; height:300px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <h3>I'm an adventurer</h3>
+            <h3>I'm a traveler</h3>
+            <h3>I'm a crafter</h3>
+        </div>
+
+        <!-- Second Container -->
+        <div class="container-fluid bg-2 text-center">
+            <h3 id="what" class="margin">What Am I?</h3>
+            <p>
+                A licensed pharmacy technician. A prior authorization agent in Pharmacy Services at SelectHealth.<br>
+                First generation college graduate with a BS in Exercise Sport Science from the University of Utah.<br>
+            </p>
+            <p>
+                Crafting is my passion. Card making and quilting are my specialties.<br>
+            </p>
+        </div>
+
+        <!-- Third Container (Grid) -->
+        <div class="container-fluid bg-3 text-center">
+            <h3 id="where" class="margin">Where I've Been</h3><br>
+            <div class="row">
+                <div class="col-sm-4">
+                    <h4>Vietnam</h4>
+                    <p>
+                        My parents immigrated from Vietnam in the 80s. We had the opportunity to go back in 2014 to visit relatives and sight-see.<br>
+                        This is the Dragon Bridge in Da Nang, one of the places that we visited.
+                    </p>
+                    <img src="SimplyMe/bridge.jpg" class="img-responsive margin img-rounded" style="width:100%" alt="Image">
+                </div>
+                <div class="col-sm-4">
+                    <h4>DisneyLand</h4>
+                    <p>
+                        The happiest place on earth! One of my favorite places to go. I've been a total of three times in my life so far. <br>
+                        This is from our trip in 2013, right after I graduated from the University of Utah.<br>
+                    </p>
+                    <img src="SimplyMe/DisneyLand.jpg" class="img-responsive margin img-rounded" style="width:100%" alt="Image">
+                </div>
+                <div class="col-sm-4">
+                    <h4>Moab</h4>
+                    <p>
+                        Living in a state with five National Parks, Canyonlands and Arches are my favorite so far.
+                        With their breathtaking vistas and arches, these two parks are truly inspiring and beautiful.<br>
+                        Shown below is the view out of the Mesa Arch in Canyonlands.
+                    </p>
+                    <img src="SimplyMe/canyonLands.JPG" class="img-responsive margin img-rounded" style="width:100%" alt="Image">
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="container-fluid bg-4 text-center">
+            <h3>About</h3>
+            <a href="mailto:jlam3@bruinmail.slcc.edu">
+                <span class="glyphicon glyphicon-envelope"></span>
+            </a>&nbsp;&nbsp;
+            <a href="http://www.slcc.edu">SLCC</a>&nbsp;&nbsp;
+            <a href="http://learn-slcc.uen.org">Canvas</a>&nbsp;&nbsp;
+            <a href="http://www.w3schools.com">W3Schools</a>&nbsp;&nbsp;
+            <!--<li id="number"><a href=>Email Jamie</a></li>-->
+            <!--<a href="https://www.facebook.com/sass.mouth.james">Facebook</a>-->
+            <br><br>
+            <p>Bootstrap Theme Made By <a href="http://www.w3schools.com">www.w3schools.com</a></p>
+        </footer>
+    </body>
+</html>
+

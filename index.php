@@ -13,5 +13,6 @@
     <a href = "/Assignment1/whoAmI.php">ASSIGNMENT 1</a> <br>
     <a href = "/Assignment2/FFForm.php">ASSIGNMENT 2</a> <br>
     <a href = "/Assignment3/FFFormValidation.php">ASSIGNMENT 3</a> <br>
+    <a href = "homePage.php">HomePage</a> <br>
 </body>
 </html>
