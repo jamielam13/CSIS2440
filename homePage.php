@@ -76,17 +76,16 @@
                         <li><a href="#what">WHAT</a></li>
                         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">IN-CLASS ASSIGNMENTS<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li id="number"><a href = "">CE01</a</li>
-                                <li id="number"><a href = "">CE02</a></li>
-                                <li id="number"><a href = "">CE03</a></li>
-                                <li id="number"><a href = "">CE04</a></li>
+                                <li id="number"><a href = "CE01.php">CE01</a</li>
+                                <li id="number"><a href = "CE02.php">CE02</a></li>
+                                <li id="number"><a href = "/CE03/CE03.php">CE03</a></li>
+                                <li id="number"><a href = "/CE04/CE04.php">CE04</a></li>
                                 <li id="number"><a href = "">CE05</a></li>
                                 <li id="number"><a href = "">CE06</a></li>
                                 <li id="number"><a href = "">CE07</a></li>
                                 <li id="number"><a href = "">CE08</a></li>
-                                <li id="number"><a href = "">CE09</a></li>
-                                <li id="number"><a href = "">CE10</a></li>
-                                <li id="number"><a href = "">CE11</a></li>
+                                <li id="number"><a href = "/CE09/CE09.php">CE09</a></li>
+                                <li id="number"><a href = "/CE10/CE10.php">CE10</a></li>
                             </ul>
                         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">ASSIGNMENTS<span class="caret"></span></a>
                             <ul class="dropdown-menu">

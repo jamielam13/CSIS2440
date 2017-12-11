@@ -17,19 +17,6 @@
                     document.myForm.fname.focus();
                     return false;
                 }
-                // if((document.myForm.email.value == "") ||
-                //    !(document.myForm.email.indexOf("@") > 0)||
-                //    !(document.myForm.email.indexOf(".") > 0))   {
-                //     alert("Please provide a valid Email!");
-                //     document.myForm.email.focus();
-                //     return false;
-                // } 
-                // var emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-                // if (document.myForm.email.value =="")  {
-                //     alert("Valid email address required");
-                //     document.myForm.email.focus();
-                //     return false;
-                // }
 
                 if(document.myForm.zip.value === "" ||
                 isNaN(document.myForm.zip.value) ||
@@ -44,6 +31,7 @@
                 }
                 return(true);
             }
+            //email vailidation
             function ValidateEmail(inputText)  {  
                 var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;  
                 if(inputText.value.match(mailformat))  {  
