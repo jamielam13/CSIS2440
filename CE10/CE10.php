@@ -25,7 +25,7 @@
                 //     return false;
                 // } 
                 var emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-                if ( document.myForm.email.value =="" || emailRegex.test(email.value)== false)  {
+                if ( document.myForm.email.value =="" && emailRegex.test(email.value)== false)  {
                     alert("Valid email address required");
                     document.myForm.email.focus();
                     return false;
