@@ -40,8 +40,6 @@
 
             /*navbar*/
             .navbar {
-                padding-top: 10px;
-                padding-bottom: 10px;
                 border: 0;
                 border-radius: 0;
                 margin-bottom: 0;
