@@ -24,12 +24,12 @@
                 //     document.myForm.email.focus();
                 //     return false;
                 // } 
-                var emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-                if ( document.myForm.email.value =="" && emailRegex.test(email.value)== false)  {
-                    alert("Valid email address required");
-                    document.myForm.email.focus();
-                    return false;
-                }
+                // var emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                // if (document.myForm.email.value =="")  {
+                //     alert("Valid email address required");
+                //     document.myForm.email.focus();
+                //     return false;
+                // }
 
                 if(document.myForm.zip.value === "" ||
                 isNaN(document.myForm.zip.value) ||
@@ -44,11 +44,22 @@
                 }
                 return(true);
             }
+            function ValidateEmail(inputText)  {  
+                var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;  
+                if(inputText.value.match(mailformat))  {  
+                    document.myForm.email.focus();  
+                    return true;  
+                }  else  {  
+                    alert("You have entered an invalid email address!");  
+                    document.myForm.email.focus();  
+                    return false;  
+                }  
+            } 
             
         </script>
     </head>
     <body>
-        <form action="addUser.php" method="post" name="myForm" onsubmit="return (validate());">
+        <form action="addUser.php" method="post" name="myForm" onsubmit="return (ValidateEmail(document.form1.text1));">
             <table cellspacing="2" cellpadding="2" border="1">
                 <tr>
                     <td align="right">Name</td>
