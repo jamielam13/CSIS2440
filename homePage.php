@@ -70,12 +70,24 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">WHO<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li id="number"><a href="resume/resume1.html">Resume</a></li>
                                 <li id="number"><a href="https://www.facebook.com/sass.mouth.james">Facebook</a></li>
                             </ul>
                         </li>
                         <li><a href="#what">WHAT</a></li>
-                        <li><a href="#where">WHERE</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">IN-CLASS ASSIGNMENTS<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li id="number"><a href = "">CE01</a</li>
+                                <li id="number"><a href = "">CE02</a></li>
+                                <li id="number"><a href = "">CE03</a></li>
+                                <li id="number"><a href = "">CE04</a></li>
+                                <li id="number"><a href = "">CE05</a></li>
+                                <li id="number"><a href = "">CE06</a></li>
+                                <li id="number"><a href = "">CE07</a></li>
+                                <li id="number"><a href = "">CE08</a></li>
+                                <li id="number"><a href = "">CE08</a></li>
+                                <li id="number"><a href = "">CE10</a></li>
+                                <li id="number"><a href = "">CE11</a></li>
+                            </ul>
                         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">ASSIGNMENTS<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li id="number"><a href = "/Assignment1/whoAmI.php">Assignment 1</a</li>>
@@ -109,38 +121,6 @@
             <p>
                 Crafting is my passion. Card making and quilting are my specialties.<br>
             </p>
-        </div>
-
-        <!-- Third Container (Grid) -->
-        <div class="container-fluid bg-3 text-center">
-            <h3 id="where" class="margin">Where I've Been</h3><br>
-            <div class="row">
-                <div class="col-sm-4">
-                    <h4>Vietnam</h4>
-                    <p>
-                        My parents immigrated from Vietnam in the 80s. We had the opportunity to go back in 2014 to visit relatives and sight-see.<br>
-                        This is the Dragon Bridge in Da Nang, one of the places that we visited.
-                    </p>
-                    <!-- <img src="SimplyMe/bridge.jpg" class="img-responsive margin img-rounded" style="width:100%" alt="Image"> -->
-                </div>
-                <div class="col-sm-4">
-                    <h4>DisneyLand</h4>
-                    <p>
-                        The happiest place on earth! One of my favorite places to go. I've been a total of three times in my life so far. <br>
-                        This is from our trip in 2013, right after I graduated from the University of Utah.<br>
-                    </p>
-                    <!-- <img src="SimplyMe/DisneyLand.jpg" class="img-responsive margin img-rounded" style="width:100%" alt="Image"> -->
-                </div>
-                <div class="col-sm-4">
-                    <h4>Moab</h4>
-                    <p>
-                        Living in a state with five National Parks, Canyonlands and Arches are my favorite so far.
-                        With their breathtaking vistas and arches, these two parks are truly inspiring and beautiful.<br>
-                        Shown below is the view out of the Mesa Arch in Canyonlands.
-                    </p>
-                    <!-- <img src="SimplyMe/canyonLands.JPG" class="img-responsive margin img-rounded" style="width:100%" alt="Image"> -->
-                </div>
-            </div>
         </div>
 
         <!-- Footer -->
