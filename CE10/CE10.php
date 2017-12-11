@@ -59,7 +59,7 @@
         </script>
     </head>
     <body>
-        <form action="addUser.php" method="post" name="myForm" onsubmit="return (ValidateEmail(document.form1.text1));">
+        <form action="addUser.php" method="post" name="myForm" onsubmit="return (ValidateEmail(document.myForm.email));">
             <table cellspacing="2" cellpadding="2" border="1">
                 <tr>
                     <td align="right">Name</td>
