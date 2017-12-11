@@ -17,22 +17,19 @@
                     document.myForm.fname.focus();
                     return false;
                 }
-                if((document.myForm.email.value == "") ||
-                   !(document.myForm.email.indexOf("@") > 0)||
-                   !(document.myForm.email.indexOf(".") > 0))   {
-                    alert("Please provide a valid Email!");
-                    document.myForm.email.focus();
-                    return false;
-                } 
-                // var emailRegex = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
-                // if(inputText.value.match(emailRegex))    {
-                //     return true;
-                // } else {
-                //     alert("Please provide a valid email!");
+                // if((document.myForm.email.value == "") ||
+                //    !(document.myForm.email.indexOf("@") > 0)||
+                //    !(document.myForm.email.indexOf(".") > 0))   {
+                //     alert("Please provide a valid Email!");
                 //     document.myForm.email.focus();
                 //     return false;
-                // }
-
+                // } 
+                var emailRegex = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+                if (emailRegex.test(email.value) == false)  {
+                    alert("Valid email address required");
+                    document.myForm.email.focus();
+                    return false;
+                }
 
                 if(document.myForm.zip.value === "" ||
                 isNaN(document.myForm.zip.value) ||
